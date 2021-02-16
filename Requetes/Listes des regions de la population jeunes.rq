@@ -1,0 +1,5 @@
+prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> 
+select ?region where {
+   ?region ?x owl:NamedIndividual  
+
+}

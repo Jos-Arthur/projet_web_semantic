@@ -1,0 +1,383 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dcterms:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dcterms:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2010
+ont:Annee_2010 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2011
+ont:Annee_2011 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2012
+ont:Annee_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2013
+ont:Annee_2013 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2014
+ont:Annee_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2015
+ont:Annee_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2016
+ont:Annee_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2017
+ont:Annee_2017 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#byteSize
+dcat:byteSize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+dcat:downloadURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+foaf:page rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Reseaux_distribution
+ont:Reseaux_distribution rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Boucle_du_Mouhoun
+ont:Boucle_du_Mouhoun rdf:type owl:NamedIndividual ,
+                               ont:Reseaux_distribution ;
+                      ont:Annee_2010 416 ;
+                      ont:Annee_2011 510 ;
+                      ont:Annee_2012 742 ;
+                      ont:Annee_2013 830 ;
+                      ont:Annee_2014 855 ;
+                      ont:Annee_2015 914 ;
+                      ont:Annee_2016 1336 ;
+                      ont:Annee_2017 1561 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Burkina_Faso
+ont:Burkina_Faso rdf:type owl:NamedIndividual ,
+                          ont:Reseaux_distribution ;
+                 ont:Annee_2010 8963 ;
+                 ont:Annee_2011 9581 ;
+                 ont:Annee_2012 10593 ;
+                 ont:Annee_2013 11528 ;
+                 ont:Annee_2014 12073 ;
+                 ont:Annee_2015 13368 ;
+                 ont:Annee_2016 14789 ;
+                 ont:Annee_2017 15716 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Cascades
+ont:Cascades rdf:type owl:NamedIndividual ,
+                      ont:Reseaux_distribution ;
+             ont:Annee_2010 250 ;
+             ont:Annee_2011 250 ;
+             ont:Annee_2012 279 ;
+             ont:Annee_2013 292 ;
+             ont:Annee_2014 317 ;
+             ont:Annee_2015 317 ;
+             ont:Annee_2016 380 ;
+             ont:Annee_2017 405 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre
+ont:Centre rdf:type owl:NamedIndividual ,
+                    ont:Reseaux_distribution ;
+           ont:Annee_2010 3676 ;
+           ont:Annee_2011 3768 ;
+           ont:Annee_2012 3954 ;
+           ont:Annee_2013 4014 ;
+           ont:Annee_2014 4214 ;
+           ont:Annee_2015 4331 ;
+           ont:Annee_2016 4491 ;
+           ont:Annee_2017 4572 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Est
+ont:Centre_Est rdf:type owl:NamedIndividual ,
+                        ont:Reseaux_distribution ;
+               ont:Annee_2010 407 ;
+               ont:Annee_2011 432 ;
+               ont:Annee_2012 459 ;
+               ont:Annee_2013 628 ;
+               ont:Annee_2014 650 ;
+               ont:Annee_2015 926 ;
+               ont:Annee_2016 1178 ;
+               ont:Annee_2017 1188 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Nord
+ont:Centre_Nord rdf:type owl:NamedIndividual ,
+                         ont:Reseaux_distribution ;
+                ont:Annee_2010 412 ;
+                ont:Annee_2011 445 ;
+                ont:Annee_2012 508 ;
+                ont:Annee_2013 541 ;
+                ont:Annee_2014 546 ;
+                ont:Annee_2015 672 ;
+                ont:Annee_2016 737 ;
+                ont:Annee_2017 803 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Ouest
+ont:Centre_Ouest rdf:type owl:NamedIndividual ,
+                          ont:Reseaux_distribution ;
+                 ont:Annee_2010 691 ;
+                 ont:Annee_2011 787 ;
+                 ont:Annee_2012 859 ;
+                 ont:Annee_2013 1036 ;
+                 ont:Annee_2014 1066 ;
+                 ont:Annee_2015 1420 ;
+                 ont:Annee_2016 1538 ;
+                 ont:Annee_2017 1649 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Sud
+ont:Centre_Sud rdf:type owl:NamedIndividual ,
+                        ont:Reseaux_distribution ;
+               ont:Annee_2010 255 ;
+               ont:Annee_2011 275 ;
+               ont:Annee_2012 281 ;
+               ont:Annee_2013 390 ;
+               ont:Annee_2014 562 ;
+               ont:Annee_2015 565 ;
+               ont:Annee_2016 608 ;
+               ont:Annee_2017 614 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Est
+ont:Est rdf:type owl:NamedIndividual ,
+                 ont:Reseaux_distribution ;
+        ont:Annee_2010 332 ;
+        ont:Annee_2011 350 ;
+        ont:Annee_2012 364 ;
+        ont:Annee_2013 372 ;
+        ont:Annee_2014 474 ;
+        ont:Annee_2015 478 ;
+        ont:Annee_2016 481 ;
+        ont:Annee_2017 484 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Hauts_Bassins
+ont:Hauts_Bassins rdf:type owl:NamedIndividual ,
+                           ont:Reseaux_distribution ;
+                  ont:Annee_2010 1519 ;
+                  ont:Annee_2011 1570 ;
+                  ont:Annee_2012 1773 ;
+                  ont:Annee_2013 1927 ;
+                  ont:Annee_2014 1940 ;
+                  ont:Annee_2015 2040 ;
+                  ont:Annee_2016 2200 ;
+                  ont:Annee_2017 2264 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Nord
+ont:Nord rdf:type owl:NamedIndividual ,
+                  ont:Reseaux_distribution ;
+         ont:Annee_2010 429 ;
+         ont:Annee_2011 503 ;
+         ont:Annee_2012 602 ;
+         ont:Annee_2013 611 ;
+         ont:Annee_2014 685 ;
+         ont:Annee_2015 891 ;
+         ont:Annee_2016 955 ;
+         ont:Annee_2017 1021 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Plateau_Central
+ont:Plateau_Central rdf:type owl:NamedIndividual ,
+                             ont:Reseaux_distribution ;
+                    ont:Annee_2010 204 ;
+                    ont:Annee_2011 229 ;
+                    ont:Annee_2012 281 ;
+                    ont:Annee_2013 286 ;
+                    ont:Annee_2014 295 ;
+                    ont:Annee_2015 340 ;
+                    ont:Annee_2016 362 ;
+                    ont:Annee_2017 364 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sahel
+ont:Sahel rdf:type owl:NamedIndividual ,
+                   ont:Reseaux_distribution ;
+          ont:Annee_2010 184 ;
+          ont:Annee_2011 263 ;
+          ont:Annee_2012 274 ;
+          ont:Annee_2013 236 ;
+          ont:Annee_2014 234 ;
+          ont:Annee_2015 238 ;
+          ont:Annee_2016 245 ;
+          ont:Annee_2017 483 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sud_Ouest
+ont:Sud_Ouest rdf:type owl:NamedIndividual ,
+                       ont:Reseaux_distribution ;
+              ont:Annee_2010 188 ;
+              ont:Annee_2011 200 ;
+              ont:Annee_2012 216 ;
+              ont:Annee_2013 366 ;
+              ont:Annee_2014 235 ;
+              ont:Annee_2015 235 ;
+              ont:Annee_2016 279 ;
+              ont:Annee_2017 305 .
+
+
+###  https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km
+<https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km> rdf:type owl:NamedIndividual ,
+                                                                                                  dcat:Dataset ;
+                                                                                         dcterms:description """<p>Longueur des lignes électriques qui alimentent les clients au sein d'une région de 2010 à 2017.</p>
+""" ;
+                                                                                         dcterms:identifier "249dcf74-81aa-47e6-9029-b3d30e22151c" ;
+                                                                                         dcterms:issued "2019-05-21T10:54:24+00:00" ;
+                                                                                         dcterms:modified "2019-05-21T14:13:43+00:00" ;
+                                                                                         dcterms:publisher "Ministère de l'Énergie" ;
+                                                                                         dcterms:title "Longueur du réseau de distribution par région (km)" ;
+                                                                                         dcat:distribution <https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752> ,
+                                                                                                           <https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74> ;
+                                                                                         dcat:theme "Energie" .
+
+
+###  https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752
+<https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752> rdf:type owl:NamedIndividual ,
+                                                                                                                                   dcat:Distribution ;
+                                                                                                                          dcterms:description "" ;
+                                                                                                                          dcterms:format "csv" ;
+                                                                                                                          dcterms:issued "2019-05-21T10:56:36+00:00" ;
+                                                                                                                          dcterms:modified "2019-05-21T10:56:36+00:00" ;
+                                                                                                                          dcterms:title "Longueur du réseau de distribution par région (km)" ;
+                                                                                                                          dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/longueur-du-réseau-de-distribution-par-région-km.xml> ;
+                                                                                                                          dcat:byteSize "696" ;
+                                                                                                                          dcat:downloadURL <https://data.gov.bf/sites/default/files/energiejeu13.csv> ;
+                                                                                                                          dcat:mediaType "text/csv" ;
+                                                                                                                          foaf:page "https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752" .
+
+
+###  https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74
+<https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74> rdf:type owl:NamedIndividual ,
+                                                                                                                                   dcat:Distribution ;
+                                                                                                                          dcterms:description "" ;
+                                                                                                                          dcterms:format "xlsx" ;
+                                                                                                                          dcterms:issued "2019-05-21T10:55:44+00:00" ;
+                                                                                                                          dcterms:modified "2019-05-21T10:55:44+00:00" ;
+                                                                                                                          dcterms:title "Longueur du réseau de distribution par région (km)" ;
+                                                                                                                          dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/longueur-du-réseau-de-distribution-par-région-km.xml> ;
+                                                                                                                          dcat:byteSize "9592" ;
+                                                                                                                          dcat:downloadURL <https://data.gov.bf/sites/default/files/energiejeu13.xlsx> ;
+                                                                                                                          dcat:mediaType "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                                                                                                          foaf:page "https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74" .
+
+
+###  https://data.gov.bf/publisher/n0
+<https://data.gov.bf/publisher/n0> rdf:type owl:NamedIndividual ,
+                                            foaf:Agent ;
+                                   dcterms:type <http://purl.org/adms/publishertype/NonProfitOrganisation> ;
+                                   foaf:homepage "https://data.gov.bf" ;
+                                   foaf:name "DKAN" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

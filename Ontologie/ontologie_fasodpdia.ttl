@@ -1,0 +1,997 @@
+@prefix : <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3> .
+
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#A_pour_Jeux_de_données
+:A_pour_Jeux_de_données rdf:type owl:ObjectProperty ;
+                        owl:inverseOf :Produit ;
+                        rdfs:domain [ rdf:type owl:Restriction ;
+                                      owl:onProperty :A_pour_Jeux_de_données ;
+                                      owl:someValuesFrom :Jeux_de_données
+                                    ] .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#A_pour_Ressources
+:A_pour_Ressources rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   owl:inverseOf :Produit ;
+                   rdfs:domain [ rdf:type owl:Restriction ;
+                                 owl:onProperty :A_pour_Ressources ;
+                                 owl:someValuesFrom :Ressources
+                               ] .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#A_pour_producteur
+:A_pour_producteur rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain [ rdf:type owl:Restriction ;
+                                 owl:onProperty :A_pour_producteur ;
+                                 owl:someValuesFrom :Producteurs
+                               ] .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#A_pour_réutilisateurs
+:A_pour_réutilisateurs rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       owl:inverseOf :Réutilise ;
+                       rdfs:domain [ rdf:type owl:Restriction ;
+                                     owl:onProperty :A_pour_réutilisateurs ;
+                                     owl:someValuesFrom :Réutilisation
+                                   ] .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Produit
+:Produit rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Restriction ;
+                       owl:onProperty :Produit ;
+                       owl:someValuesFrom :Jeux_de_données
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :Produit ;
+                       owl:someValuesFrom :Ressources
+                     ] .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Réutilise
+:Réutilise rdf:type owl:ObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :Réutilise ;
+                         owl:someValuesFrom :Jeux_de_données
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :Réutilise ;
+                         owl:someValuesFrom :Ressources
+                       ] .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Banque_Africaine_de_Développement
+:Banque_Africaine_de_Développement rdf:type owl:Class ;
+                                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :A_pour_Jeux_de_données ;
+                                                         owl:someValuesFrom :Production_de_céréales_au_Burkina_Faso_de_1980_à_2013
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :A_pour_Jeux_de_données ;
+                                                         owl:someValuesFrom :Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013
+                                                       ] ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :A_pour_Jeux_de_données ;
+                                                         owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_économiquement_active_dans_l'agriculture_de_1980_à_2016_au_Burkina_Faso>
+                                                       ] ;
+                                   rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Banque_Mondiale
+:Banque_Mondiale rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :A_pour_Jeux_de_données ;
+                                       owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_du_réseau_électrique_du_Burkina_Faso_(2017)>
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty :A_pour_Jeux_de_données ;
+                                       owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Limites_administratives_du_Burkina_Faso_(2017)>
+                                     ] ;
+                 rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Budget_2009_format_tableau_croisé
+:Budget_2009_format_tableau_croisé rdf:type owl:Class ;
+                                   rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#CartEau
+:CartEau rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :Réutilise ;
+                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Couverture_en_mode_d'approvisionnement_en_eau_selon_zone_d'habitation_et_source_d'approvisionnement>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :Réutilise ;
+                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Quantité_de_production_des_captures_et_d'aquaculture_de_1990_à_2011>
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :Réutilise ;
+                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_des_prélèvements_d'eau_de_2000_à_2014>
+                             ] ;
+         rdfs:subClassOf :Réutilisation .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Commission_Electorale_Nationale_Independante
+:Commission_Electorale_Nationale_Independante rdf:type owl:Class ;
+                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :A_pour_Jeux_de_données ;
+                                                                    owl:someValuesFrom :Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso
+                                                                  ] ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :A_pour_Jeux_de_données ;
+                                                                    owl:someValuesFrom :Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015
+                                                                  ] ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :A_pour_Jeux_de_données ;
+                                                                    owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Résultats_provisoires_de_l'élection_présidentielle_du_29_décembre_2015>
+                                                                  ] ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :A_pour_Ressources ;
+                                                                    owl:someValuesFrom :Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015
+                                                                  ] ,
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :A_pour_Ressources ;
+                                                                    owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d'Indépendants_participants_aux_élections_législatives_2015>
+                                                                  ] ;
+                                              rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_des_arrivées_au_Burkina_Faso_par_nationalité
+:Evolution_des_arrivées_au_Burkina_Faso_par_nationalité rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_des_exportations_selon_les_sections_du_Système_Harmonise
+:Evolution_des_exportations_selon_les_sections_du_Système_Harmonise rdf:type owl:Class ;
+                                                                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                          owl:onProperty :A_pour_producteur ;
+                                                                                          owl:someValuesFrom :Institut_des_Sciences_des_Sociétés
+                                                                                        ] ;
+                                                                    rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé
+:Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_taux_brut_de_préscolarisation
+:Evolution_du_taux_brut_de_préscolarisation rdf:type owl:Class ;
+                                            rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017
+:Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017 rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Indicateurs_de_télécommunications_de_téléphonie_fixe
+:Indicateurs_de_télécommunications_de_téléphonie_fixe rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Indicateurs_du_tourisme_hôtelier
+:Indicateurs_du_tourisme_hôtelier rdf:type owl:Class ;
+                                  rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Institut_National_de_la_Statistique_et_de_la_Démographie
+:Institut_National_de_la_Statistique_et_de_la_Démographie rdf:type owl:Class ;
+                                                          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                owl:someValuesFrom :Evolution_du_taux_brut_de_préscolarisation
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                owl:someValuesFrom :Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                owl:someValuesFrom :Statistiques_sur_la_sécurité_sociale
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :A_pour_Ressources ;
+                                                                                owl:someValuesFrom :Statistiques_sur_la_sécurité_sociale_au_BF
+                                                                              ] ,
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty :A_pour_Ressources ;
+                                                                                owl:someValuesFrom :Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016
+                                                                              ] ;
+                                                          rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Institut_des_Sciences_des_Sociétés
+:Institut_des_Sciences_des_Sociétés rdf:type owl:Class ;
+                                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :A_pour_Jeux_de_données ;
+                                                          owl:someValuesFrom :Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :A_pour_Jeux_de_données ;
+                                                          owl:someValuesFrom :Indicateurs_de_télécommunications_de_téléphonie_fixe
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :A_pour_Jeux_de_données ;
+                                                          owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'animaux_de_traction>
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :A_pour_Ressources ;
+                                                          owl:someValuesFrom :Evolution_des_exportations_selon_les_sections_du_Système_Harmonise
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :A_pour_Ressources ;
+                                                          owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Burkina_Faso_-_Agriculture,_value_added>
+                                                        ] ;
+                                    rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Investissement_fond_permanant_2009-2010_du_Burkina_Faso
+:Investissement_fond_permanant_2009-2010_du_Burkina_Faso rdf:type owl:Class ;
+                                                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :A_pour_producteur ;
+                                                                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Minsitère_de_l'Economie,_des_Finances_et_du_Développement>
+                                                                             ] ;
+                                                         rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Jeux_de_données
+:Jeux_de_données rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso
+:Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015
+:Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015 rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015
+:Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015 rdf:type owl:Class ;
+                                                                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty :A_pour_producteur ;
+                                                                                       owl:someValuesFrom :Commission_Electorale_Nationale_Independante
+                                                                                     ] ,
+                                                                                     [ rdf:type owl:Restriction ;
+                                                                                       owl:onProperty :A_pour_réutilisateurs ;
+                                                                                       owl:someValuesFrom :Open_Election
+                                                                                     ] ;
+                                                                 rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_la_Culture_et_du_Tourisme
+:Ministère_de_la_Culture_et_du_Tourisme rdf:type owl:Class ;
+                                        owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :A_pour_Jeux_de_données ;
+                                                              owl:someValuesFrom :Evolution_des_arrivées_au_Burkina_Faso_par_nationalité
+                                                            ] ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :A_pour_Jeux_de_données ;
+                                                              owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Capacité_d'accueil_par_région_en_nombre_de_chambre>
+                                                            ] ;
+                                        rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina
+:Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina rdf:type owl:Class ;
+                                                                 rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région
+:Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Jeux_de_données ;
+                                                                      owl:disjointWith <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010> .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_des_centrales_fonctionnelles_selon_la_nature
+:Nombre_des_centrales_fonctionnelles_selon_la_nature rdf:type owl:Class ;
+                                                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :A_pour_producteur ;
+                                                                           owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Energie>
+                                                                         ] ;
+                                                     rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nos_Ecoles_Nos_DOnnées
+:Nos_Ecoles_Nos_DOnnées rdf:type owl:Class ;
+                        rdfs:subClassOf :Réutilisation .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Open_Election
+:Open_Election rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :Réutilise ;
+                                     owl:someValuesFrom :Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :Réutilise ;
+                                     owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d'Indépendants_participants_aux_élections_législatives_2015>
+                                   ] ;
+               rdfs:subClassOf :Réutilisation .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Pluviométrie_et_barrages_de_2006-2012
+:Pluviométrie_et_barrages_de_2006-2012 rdf:type owl:Class ;
+                                       rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_par_province_selon_le_milieu_de_résidence_en_2006
+:Population_par_province_selon_le_milieu_de_résidence_en_2006 rdf:type owl:Class ;
+                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty :A_pour_producteur ;
+                                                                                    owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Aménagement_du_territoire_et_de_la_Décentralisation>
+                                                                                  ] ;
+                                                              rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Producteurs
+:Producteurs rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Production_de_céréales_au_Burkina_Faso_de_1980_à_2013
+:Production_de_céréales_au_Burkina_Faso_de_1980_à_2013 rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Production_des_cultures_maraichères_de_1993_à_2012
+:Production_des_cultures_maraichères_de_1993_à_2012 rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année
+:Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA
+:Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ressources
+:Ressources rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_de_la_population_agricole_selon_Province
+:Répartition_de_la_population_agricole_selon_Province rdf:type owl:Class ;
+                                                      owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :A_pour_producteur ;
+                                                                            owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles>
+                                                                          ] ;
+                                                      rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Réutilisation
+:Réutilisation rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Statistiques_sur_la_sécurité_sociale
+:Statistiques_sur_la_sécurité_sociale rdf:type owl:Class ;
+                                      rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Statistiques_sur_la_sécurité_sociale_au_BF
+:Statistiques_sur_la_sécurité_sociale_au_BF rdf:type owl:Class ;
+                                            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :A_pour_producteur ;
+                                                                  owl:someValuesFrom :Institut_National_de_la_Statistique_et_de_la_Démographie
+                                                                ] ;
+                                            rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013
+:Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013 rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016
+:Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016 rdf:type owl:Class ;
+                                                                             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty :A_pour_producteur ;
+                                                                                                   owl:someValuesFrom :Institut_National_de_la_Statistique_et_de_la_Démographie
+                                                                                                 ] ;
+                                                                             rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Burkina_Faso_-_Agriculture,_value_added
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Burkina_Faso_-_Agriculture,_value_added> rdf:type owl:Class ;
+                                                                                                                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                               owl:onProperty :A_pour_producteur ;
+                                                                                                                                               owl:someValuesFrom :Institut_des_Sciences_des_Sociétés
+                                                                                                                                             ] ;
+                                                                                                                         rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Capacité_d'accueil_par_région_en_nombre_de_chambre
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Capacité_d'accueil_par_région_en_nombre_de_chambre> rdf:type owl:Class ;
+                                                                                                                                    rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Couverture_en_mode_d'approvisionnement_en_eau_selon_zone_d'habitation_et_source_d'approvisionnement
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Couverture_en_mode_d'approvisionnement_en_eau_selon_zone_d'habitation_et_source_d'approvisionnement> rdf:type owl:Class ;
+                                                                                                                                                                                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                           owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement>
+                                                                                                                                                                                                         ] ;
+                                                                                                                                                                                     rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_du_réseau_électrique_du_Burkina_Faso_(2017)
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_du_réseau_électrique_du_Burkina_Faso_(2017)> rdf:type owl:Class ;
+                                                                                                                                     rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010> rdf:type owl:Class ;
+                                                                                                                                                                                            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                  owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Minsitère_de_l'Economie,_des_Finances_et_du_Développement>
+                                                                                                                                                                                                                ] ;
+                                                                                                                                                                                            rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Effectifs_par_tranches_d'ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l'année_scolaire_2008-2009
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Effectifs_par_tranches_d'ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l'année_scolaire_2008-2009> rdf:type owl:Class ;
+                                                                                                                                                                                                                     rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Enquête_sur_l'appui_technique_des_services_déconcentrés_des_collectivités_territoriales
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Enquête_sur_l'appui_technique_des_services_déconcentrés_des_collectivités_territoriales> rdf:type owl:Class ;
+                                                                                                                                                                         rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017> rdf:type owl:Class ;
+                                                                                                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                    owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                    owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles>
+                                                                                                                                                                  ] ;
+                                                                                                                                              rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province> rdf:type owl:Class ;
+                                                                                                                                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                    owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                                                    owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles>
+                                                                                                                                                                                                  ] ;
+                                                                                                                                                                              rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_l’effectif_des_demandeurs_d’emplois_enregistrés_selon_la_région_et_le_sexe_de_2012_à_2016
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_l’effectif_des_demandeurs_d’emplois_enregistrés_selon_la_région_et_le_sexe_de_2012_à_2016> rdf:type owl:Class ;
+                                                                                                                                                                                        rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)> rdf:type owl:Class ;
+                                                                                                                                                                                        owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                              owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles>
+                                                                                                                                                                                                            ] ;
+                                                                                                                                                                                        rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017> rdf:type owl:Class ;
+                                                                                                                                                         rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017> rdf:type owl:Class ;
+                                                                                                                                                        rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)> rdf:type owl:Class ;
+                                                                                                                                             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                   owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Energie>
+                                                                                                                                                                 ] ;
+                                                                                                                                             rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Limites_administratives_du_Burkina_Faso_(2017)
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Limites_administratives_du_Burkina_Faso_(2017)> rdf:type owl:Class ;
+                                                                                                                                rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d'Indépendants_participants_aux_élections_législatives_2015
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d'Indépendants_participants_aux_élections_législatives_2015> rdf:type owl:Class ;
+                                                                                                                                                                                                       owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                             owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                                                                             owl:someValuesFrom :Commission_Electorale_Nationale_Independante
+                                                                                                                                                                                                                           ] ,
+                                                                                                                                                                                                                           [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                             owl:onProperty :A_pour_réutilisateurs ;
+                                                                                                                                                                                                                             owl:someValuesFrom :Open_Election
+                                                                                                                                                                                                                           ] ;
+                                                                                                                                                                                                       rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département> rdf:type owl:Class ;
+                                                                                                                                                                     rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département> rdf:type owl:Class ;
+                                                                                                                                                                     rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Administration_Territoriale_et_de_la_Sécurité
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Administration_Territoriale_et_de_la_Sécurité> rdf:type owl:Class ;
+                                                                                                                                              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                    owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                    owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_personnes_par_niveau,_par_région_et_par_an>
+                                                                                                                                                                  ] ;
+                                                                                                                                              rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles> rdf:type owl:Class ;
+                                                                                                                                                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                      owl:someValuesFrom :Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina
+                                                                                                                                                                    ] ,
+                                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                      owl:someValuesFrom :Production_des_cultures_maraichères_de_1993_à_2012
+                                                                                                                                                                    ] ,
+                                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                      owl:someValuesFrom :Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année
+                                                                                                                                                                    ] ,
+                                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                      owl:someValuesFrom :Répartition_de_la_population_agricole_selon_Province
+                                                                                                                                                                    ] ,
+                                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017>
+                                                                                                                                                                    ] ,
+                                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province>
+                                                                                                                                                                    ] ,
+                                                                                                                                                                    [ rdf:type owl:Restriction ;
+                                                                                                                                                                      owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)>
+                                                                                                                                                                    ] ;
+                                                                                                                                                rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Aménagement_du_territoire_et_de_la_Décentralisation
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Aménagement_du_territoire_et_de_la_Décentralisation> rdf:type owl:Class ;
+                                                                                                                                                    rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Energie
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Energie> rdf:type owl:Class ;
+                                                                                                        owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_Basse_Tension_de_la_SONABEL_par_région>
+                                                                                                                            ] ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'abonnés_par_région>
+                                                                                                                            ] ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty :A_pour_Ressources ;
+                                                                                                                              owl:someValuesFrom :Nombre_des_centrales_fonctionnelles_selon_la_nature
+                                                                                                                            ] ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty :A_pour_Ressources ;
+                                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)>
+                                                                                                                            ] ,
+                                                                                                                            [ rdf:type owl:Restriction ;
+                                                                                                                              owl:onProperty :A_pour_Ressources ;
+                                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_en_électricité_par_région>
+                                                                                                                            ] ;
+                                                                                                        rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'action_Sociale_et_de_la_Solidarité_Nationale
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'action_Sociale_et_de_la_Solidarité_Nationale> rdf:type owl:Class ;
+                                                                                                                                             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                   owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département>
+                                                                                                                                                                 ] ,
+                                                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                                                   owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_personnes_par_niveau,_par_région_et_par_an>
+                                                                                                                                                                 ] ,
+                                                                                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                                                                                   owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                   owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district>
+                                                                                                                                                                 ] ;
+                                                                                                                                             rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Education_Nationale_et_de_l'Alphabétisation
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Education_Nationale_et_de_l'Alphabétisation> rdf:type owl:Class ;
+                                                                                                                                            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                  owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Effectifs_par_tranches_d'ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l'année_scolaire_2008-2009>
+                                                                                                                                                                ] ,
+                                                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                                                  owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département>
+                                                                                                                                                                ] ,
+                                                                                                                                                                [ rdf:type owl:Restriction ;
+                                                                                                                                                                  owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_par_tranches_d'ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006>
+                                                                                                                                                                ] ;
+                                                                                                                                            rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l'Innovation
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l'Innovation> rdf:type owl:Class ;
+                                                                                                                                                                          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                                                owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017>
+                                                                                                                                                                                              ] ,
+                                                                                                                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                                                owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017>
+                                                                                                                                                                                              ] ;
+                                                                                                                                                                          rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement> rdf:type owl:Class ;
+                                                                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                 owl:someValuesFrom :Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région
+                                                                                                                                               ] ,
+                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                 owl:someValuesFrom :Pluviométrie_et_barrages_de_2006-2012
+                                                                                                                                               ] ,
+                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010>
+                                                                                                                                               ] ,
+                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Couverture_en_mode_d'approvisionnement_en_eau_selon_zone_d'habitation_et_source_d'approvisionnement>
+                                                                                                                                               ] ,
+                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                 owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_des_prélèvements_d'eau_de_2000_à_2014>
+                                                                                                                                               ] ;
+                                                                                                                           rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l'Emploi
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l'Emploi> rdf:type owl:Class ;
+                                                                                                                                                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                               owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_l’effectif_des_demandeurs_d’emplois_enregistrés_selon_la_région_et_le_sexe_de_2012_à_2016>
+                                                                                                                                                                             ] ,
+                                                                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                                                                               owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Proportion_des_jeunes_selon_le_milieu_de_résidence_et_le_niveau_d’instruction_en_2006>
+                                                                                                                                                                             ] ,
+                                                                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                                                                               owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_de_chômage_des_jeunes_(15_à_34_ans_révolus)_au_sens_large_et_au_sens_du_BIT_en_2015>
+                                                                                                                                                                             ] ,
+                                                                                                                                                                             [ rdf:type owl:Restriction ;
+                                                                                                                                                                               owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d'œuvre_en_2015_Source:_INSD,_ENESI_2015>
+                                                                                                                                                                             ] ;
+                                                                                                                                                         rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Minsitère_de_l'Economie,_des_Finances_et_du_Développement
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Minsitère_de_l'Economie,_des_Finances_et_du_Développement> rdf:type owl:Class ;
+                                                                                                                                           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                 owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                 owl:someValuesFrom :Budget_2009_format_tableau_croisé
+                                                                                                                                                               ] ,
+                                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                                 owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                 owl:someValuesFrom :Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA
+                                                                                                                                                               ] ,
+                                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                                 owl:onProperty :A_pour_Jeux_de_données ;
+                                                                                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Enquête_sur_l'appui_technique_des_services_déconcentrés_des_collectivités_territoriales>
+                                                                                                                                                               ] ,
+                                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                                 owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                 owl:someValuesFrom :Investissement_fond_permanant_2009-2010_du_Burkina_Faso
+                                                                                                                                                               ] ,
+                                                                                                                                                               [ rdf:type owl:Restriction ;
+                                                                                                                                                                 owl:onProperty :A_pour_Ressources ;
+                                                                                                                                                                 owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010>
+                                                                                                                                                               ] ;
+                                                                                                                                           rdfs:subClassOf :Producteurs .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_Basse_Tension_de_la_SONABEL_par_région
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_Basse_Tension_de_la_SONABEL_par_région> rdf:type owl:Class ;
+                                                                                                                                         rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_en_électricité_par_région
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_en_électricité_par_région> rdf:type owl:Class ;
+                                                                                                                            owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                  owl:onProperty :A_pour_producteur ;
+                                                                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Energie>
+                                                                                                                                                ] ;
+                                                                                                                            rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_personnes_par_niveau,_par_région_et_par_an
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_personnes_par_niveau,_par_région_et_par_an> rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district> rdf:type owl:Class ;
+                                                                                                                                                              rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'abonnés_par_région
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'abonnés_par_région> rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'animaux_de_traction
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'animaux_de_traction> rdf:type owl:Class ;
+                                                                                                                    rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_du_Burkina_par_tranche_d'age_de_2008_à_2017
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_du_Burkina_par_tranche_d'age_de_2008_à_2017> rdf:type owl:Class ;
+                                                                                                                                        owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                              owl:onProperty :A_pour_producteur ;
+                                                                                                                                                              owl:someValuesFrom :Institut_National_de_la_Statistique_et_de_la_Démographie
+                                                                                                                                                            ] ;
+                                                                                                                                        rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_économiquement_active_dans_l'agriculture_de_1980_à_2016_au_Burkina_Faso
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_économiquement_active_dans_l'agriculture_de_1980_à_2016_au_Burkina_Faso> rdf:type owl:Class ;
+                                                                                                                                                                    rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Proportion_des_jeunes_selon_le_milieu_de_résidence_et_le_niveau_d’instruction_en_2006
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Proportion_des_jeunes_selon_le_milieu_de_résidence_et_le_niveau_d’instruction_en_2006> rdf:type owl:Class ;
+                                                                                                                                                                       rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Puissance_souscrite_par_région_(en_MW)
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Puissance_souscrite_par_région_(en_MW)> rdf:type owl:Class ;
+                                                                                                                        rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Quantité_de_production_des_captures_et_d'aquaculture_de_1990_à_2011
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Quantité_de_production_des_captures_et_d'aquaculture_de_1990_à_2011> rdf:type owl:Class ;
+                                                                                                                                                     owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                           owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement>
+                                                                                                                                                                         ] ,
+                                                                                                                                                                         [ rdf:type owl:Restriction ;
+                                                                                                                                                                           owl:onProperty :A_pour_réutilisateurs ;
+                                                                                                                                                                           owl:someValuesFrom :CartEau
+                                                                                                                                                                         ] ;
+                                                                                                                                                     rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d'œuvre_en_2015_Source:_INSD,_ENESI_2015
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d'œuvre_en_2015_Source:_INSD,_ENESI_2015> rdf:type owl:Class ;
+                                                                                                                                                                                                         owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                                                                                               owl:onProperty :A_pour_producteur ;
+                                                                                                                                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l'Emploi>
+                                                                                                                                                                                                                             ] ;
+                                                                                                                                                                                                         rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_des_prélèvements_d'eau_de_2000_à_2014
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_des_prélèvements_d'eau_de_2000_à_2014> rdf:type owl:Class ;
+                                                                                                                                   owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                                                                                                         owl:onProperty :A_pour_producteur ;
+                                                                                                                                                         owl:someValuesFrom <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement>
+                                                                                                                                                       ] ,
+                                                                                                                                                       [ rdf:type owl:Restriction ;
+                                                                                                                                                         owl:onProperty :A_pour_réutilisateurs ;
+                                                                                                                                                         owl:someValuesFrom :CartEau
+                                                                                                                                                       ] ;
+                                                                                                                                   rdfs:subClassOf :Ressources .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_par_tranches_d'ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_par_tranches_d'ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006> rdf:type owl:Class ;
+                                                                                                                                                                           rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Résultats_provisoires_de_l'élection_présidentielle_du_29_décembre_2015
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Résultats_provisoires_de_l'élection_présidentielle_du_29_décembre_2015> rdf:type owl:Class ;
+                                                                                                                                                        rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_de_chômage_des_jeunes_(15_à_34_ans_révolus)_au_sens_large_et_au_sens_du_BIT_en_2015
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_de_chômage_des_jeunes_(15_à_34_ans_révolus)_au_sens_large_et_au_sens_du_BIT_en_2015> rdf:type owl:Class ;
+                                                                                                                                                                          rdfs:subClassOf :Jeux_de_données .
+
+
+###  http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010
+<http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010> rdf:type owl:Class ;
+                                                                                                                                                           rdfs:subClassOf :Jeux_de_données .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Banque_Africaine_de_Développement
+                :Banque_Mondiale
+                :Institut_National_de_la_Statistique_et_de_la_Démographie
+                :Institut_des_Sciences_des_Sociétés
+                :Ministère_de_la_Culture_et_du_Tourisme
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Administration_Territoriale_et_de_la_Sécurité>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Aménagement_du_territoire_et_de_la_Décentralisation>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Energie>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'action_Sociale_et_de_la_Solidarité_Nationale>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Education_Nationale_et_de_l'Alphabétisation>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l'Innovation>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l'Emploi>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Minsitère_de_l'Economie,_des_Finances_et_du_Développement>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Banque_Africaine_de_Développement
+                :Banque_Mondiale
+                :Institut_National_de_la_Statistique_et_de_la_Démographie
+                :Institut_des_Sciences_des_Sociétés
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Administration_Territoriale_et_de_la_Sécurité>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Agriculture_et_des_aménagements_Hydro-Agricoles>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'Aménagement_du_territoire_et_de_la_Décentralisation>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'action_Sociale_et_de_la_Solidarité_Nationale>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Ministère_de_l'eau_et_de_l'Assainissement>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Minsitère_de_l'Economie,_des_Finances_et_du_Développement>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Budget_2009_format_tableau_croisé
+                :Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Enquête_sur_l'appui_technique_des_services_déconcentrés_des_collectivités_territoriales>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CartEau
+                :Nos_Ecoles_Nos_DOnnées
+                :Open_Election
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Evolution_des_arrivées_au_Burkina_Faso_par_nationalité
+                :Indicateurs_du_tourisme_hôtelier
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Capacité_d'accueil_par_région_en_nombre_de_chambre>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_Basse_Tension_de_la_SONABEL_par_région>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'abonnés_par_région>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Puissance_souscrite_par_région_(en_MW)>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé
+                :Indicateurs_de_télécommunications_de_téléphonie_fixe
+                :Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso
+                :Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_total_d'animaux_de_traction>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Résultats_provisoires_de_l'élection_présidentielle_du_29_décembre_2015>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Evolution_du_taux_brut_de_préscolarisation
+                :Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017
+                :Statistiques_sur_la_sécurité_sociale
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Données_du_réseau_électrique_du_Burkina_Faso_(2017)>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Limites_administratives_du_Burkina_Faso_(2017)>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina
+                :Production_des_cultures_maraichères_de_1993_à_2012
+                :Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région
+                :Pluviométrie_et_barrages_de_2006-2012
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Nombre_des_centrales_fonctionnelles_selon_la_nature
+                :Population_par_province_selon_le_milieu_de_résidence_en_2006
+                :Statistiques_sur_la_sécurité_sociale_au_BF
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_d'abonnés_en_électricité_par_région>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_du_Burkina_par_tranche_d'age_de_2008_à_2017>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Production_de_céréales_au_Burkina_Faso_de_1980_à_2013
+                :Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Population_économiquement_active_dans_l'agriculture_de_1980_à_2016_au_Burkina_Faso>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Répartition_de_la_population_agricole_selon_Province
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Couverture_en_mode_d'approvisionnement_en_eau_selon_zone_d'habitation_et_source_d'approvisionnement>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Quantité_de_production_des_captures_et_d'aquaculture_de_1990_à_2011>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_des_prélèvements_d'eau_de_2000_à_2014>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Effectifs_par_tranches_d'ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l'année_scolaire_2008-2009>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Répartition_par_tranches_d'ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_personnes_par_niveau,_par_région_et_par_an>
+                <http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district>
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,383 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dcterms:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dcterms:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2007
+ont:Annee_2007 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2009
+ont:Annee_2009 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2010
+ont:Annee_2010 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2011
+ont:Annee_2011 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2012
+ont:Annee_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2013
+ont:Annee_2013 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2014
+ont:Annee_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2015
+ont:Annee_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2016
+ont:Annee_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#byteSize
+dcat:byteSize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+dcat:downloadURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+foaf:page rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Bassins
+ont:Bassins rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Boucle_du_Mouhoun
+ont:Boucle_du_Mouhoun rdf:type owl:NamedIndividual ,
+                               ont:Bassins ;
+                      ont:Annee_2007 124 ;
+                      ont:Annee_2009 129 ;
+                      ont:Annee_2010 131 ;
+                      ont:Annee_2011 134 ;
+                      ont:Annee_2012 137 ;
+                      ont:Annee_2013 139 ;
+                      ont:Annee_2014 142 ;
+                      ont:Annee_2015 145 ;
+                      ont:Annee_2016 147 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Cascades
+ont:Cascades rdf:type owl:NamedIndividual ,
+                      ont:Bassins ;
+             ont:Annee_2007 2 ;
+             ont:Annee_2009 2 ;
+             ont:Annee_2010 2 ;
+             ont:Annee_2011 2 ;
+             ont:Annee_2012 2 ;
+             ont:Annee_2013 2 ;
+             ont:Annee_2014 2 ;
+             ont:Annee_2015 2 ;
+             ont:Annee_2016 2 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre
+ont:Centre rdf:type owl:NamedIndividual ,
+                    ont:Bassins ;
+           ont:Annee_2007 51 ;
+           ont:Annee_2009 53 ;
+           ont:Annee_2010 55 ;
+           ont:Annee_2011 56 ;
+           ont:Annee_2012 57 ;
+           ont:Annee_2013 58 ;
+           ont:Annee_2014 59 ;
+           ont:Annee_2015 60 ;
+           ont:Annee_2016 61 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Est
+ont:Centre-Est rdf:type owl:NamedIndividual ,
+                        ont:Bassins ;
+               ont:Annee_2007 83 ;
+               ont:Annee_2009 86 ;
+               ont:Annee_2010 88 ;
+               ont:Annee_2011 90 ;
+               ont:Annee_2012 91 ;
+               ont:Annee_2013 93 ;
+               ont:Annee_2014 95 ;
+               ont:Annee_2015 97 ;
+               ont:Annee_2016 98 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Nord
+ont:Centre-Nord rdf:type owl:NamedIndividual ,
+                         ont:Bassins ;
+                ont:Annee_2007 64 ;
+                ont:Annee_2009 67 ;
+                ont:Annee_2010 68 ;
+                ont:Annee_2011 69 ;
+                ont:Annee_2012 71 ;
+                ont:Annee_2013 72 ;
+                ont:Annee_2014 74 ;
+                ont:Annee_2015 75 ;
+                ont:Annee_2016 76 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Ouest
+ont:Centre-Ouest rdf:type owl:NamedIndividual ,
+                          ont:Bassins ;
+                 ont:Annee_2007 133 ;
+                 ont:Annee_2009 138 ;
+                 ont:Annee_2010 141 ;
+                 ont:Annee_2011 144 ;
+                 ont:Annee_2012 146 ;
+                 ont:Annee_2013 149 ;
+                 ont:Annee_2014 152 ;
+                 ont:Annee_2015 155 ;
+                 ont:Annee_2016 158 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Sud
+ont:Centre-Sud rdf:type owl:NamedIndividual ,
+                        ont:Bassins ;
+               ont:Annee_2007 74 ;
+               ont:Annee_2009 77 ;
+               ont:Annee_2010 78 ;
+               ont:Annee_2011 80 ;
+               ont:Annee_2012 81 ;
+               ont:Annee_2013 83 ;
+               ont:Annee_2014 85 ;
+               ont:Annee_2015 86 ;
+               ont:Annee_2016 88 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble
+ont:Ensemble rdf:type owl:NamedIndividual ,
+                      ont:Bassins ;
+             ont:Annee_2007 990 ;
+             ont:Annee_2009 "1 030" ;
+             ont:Annee_2010 "1 050" ;
+             ont:Annee_2011 "1 071" ;
+             ont:Annee_2012 "1 093" ;
+             ont:Annee_2013 "1 114" ;
+             ont:Annee_2014 "1 137" ;
+             ont:Annee_2015 "1 160" ;
+             ont:Annee_2016 "1 182" .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Est
+ont:Est rdf:type owl:NamedIndividual ,
+                 ont:Bassins ;
+        ont:Annee_2007 101 ;
+        ont:Annee_2009 105 ;
+        ont:Annee_2010 107 ;
+        ont:Annee_2011 109 ;
+        ont:Annee_2012 111 ;
+        ont:Annee_2013 114 ;
+        ont:Annee_2014 116 ;
+        ont:Annee_2015 118 ;
+        ont:Annee_2016 120 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Hauts-Bassins
+ont:Hauts-Bassins rdf:type owl:NamedIndividual ,
+                           ont:Bassins ;
+                  ont:Annee_2007 87 ;
+                  ont:Annee_2009 91 ;
+                  ont:Annee_2010 93 ;
+                  ont:Annee_2011 94 ;
+                  ont:Annee_2012 96 ;
+                  ont:Annee_2013 98 ;
+                  ont:Annee_2014 100 ;
+                  ont:Annee_2015 102 ;
+                  ont:Annee_2016 104 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Nord
+ont:Nord rdf:type owl:NamedIndividual ,
+                  ont:Bassins ;
+         ont:Annee_2007 100 ;
+         ont:Annee_2009 104 ;
+         ont:Annee_2010 106 ;
+         ont:Annee_2011 108 ;
+         ont:Annee_2012 110 ;
+         ont:Annee_2013 113 ;
+         ont:Annee_2014 115 ;
+         ont:Annee_2015 117 ;
+         ont:Annee_2016 119 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Plateau_Central
+ont:Plateau_Central rdf:type owl:NamedIndividual ,
+                             ont:Bassins ;
+                    ont:Annee_2007 100 ;
+                    ont:Annee_2009 104 ;
+                    ont:Annee_2010 106 ;
+                    ont:Annee_2011 108 ;
+                    ont:Annee_2012 110 ;
+                    ont:Annee_2013 112 ;
+                    ont:Annee_2014 115 ;
+                    ont:Annee_2015 117 ;
+                    ont:Annee_2016 119 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sahel
+ont:Sahel rdf:type owl:NamedIndividual ,
+                   ont:Bassins ;
+          ont:Annee_2007 69 ;
+          ont:Annee_2009 72 ;
+          ont:Annee_2010 74 ;
+          ont:Annee_2011 75 ;
+          ont:Annee_2012 77 ;
+          ont:Annee_2013 78 ;
+          ont:Annee_2014 80 ;
+          ont:Annee_2015 81 ;
+          ont:Annee_2016 82 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sud-Ouest
+ont:Sud-Ouest rdf:type owl:NamedIndividual ,
+                       ont:Bassins ;
+              ont:Annee_2007 2 ;
+              ont:Annee_2009 2 ;
+              ont:Annee_2010 2 ;
+              ont:Annee_2011 2 ;
+              ont:Annee_2012 3 ;
+              ont:Annee_2013 3 ;
+              ont:Annee_2014 3 ;
+              ont:Annee_2015 3 ;
+              ont:Annee_2016 2 .
+
+
+###  https://data.gov.bf/dataset/evolution-des-effectifs-des-asins-par-r%C3%A9gion-en-milliers-de-2007-%C3%A0-2016
+<https://data.gov.bf/dataset/evolution-des-effectifs-des-asins-par-r%C3%A9gion-en-milliers-de-2007-%C3%A0-2016> rdf:type owl:NamedIndividual ,
+                                                                                                                         dcat:Dataset ;
+                                                                                                                dcterms:identifier "df4f51d2-0095-43e2-8d37-46dc546c0f01" ;
+                                                                                                                dcterms:issued "2019-05-27T08:29:47+00:00" ;
+                                                                                                                dcterms:modified "2019-05-27T10:58:12+00:00" ;
+                                                                                                                dcterms:publisher "Ministère de l’Environnement, de l’Economie Verte et du Changement Climatique" ;
+                                                                                                                dcterms:title "Evolution des effectifs des asins par région (en milliers) de 2007 à 2016" ;
+                                                                                                                dcat:distribution <https://data.gov.bf/dataset/evolution-des-effectifs-des-asins-par-r%C3%A9gion-en-milliers-de-2007-%C3%A0-2016/resource/9ab51dfd> ;
+                                                                                                                dcat:theme "Eau et environnement" .
+
+
+###  https://data.gov.bf/dataset/evolution-des-effectifs-des-asins-par-r%C3%A9gion-en-milliers-de-2007-%C3%A0-2016/resource/9ab51dfd
+<https://data.gov.bf/dataset/evolution-des-effectifs-des-asins-par-r%C3%A9gion-en-milliers-de-2007-%C3%A0-2016/resource/9ab51dfd> rdf:type owl:NamedIndividual ,
+                                                                                                                                           dcat:Distribution ;
+                                                                                                                                  dcterms:description "" ;
+                                                                                                                                  dcterms:format "xlsx" ;
+                                                                                                                                  dcterms:issued "2019-05-27T08:31:00+00:00" ;
+                                                                                                                                  dcterms:modified "2019-05-27T08:31:00+00:00" ;
+                                                                                                                                  dcterms:title "Evolution des effectifs des asins par région (en milliers) de 2007 à 2016" ;
+                                                                                                                                  dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/evolution-des-effectifs-des-asins-par-région-en-milliers-de-2007-à-2016.xml> ;
+                                                                                                                                  dcat:byteSize "10435" ;
+                                                                                                                                  dcat:downloadURL <https://data.gov.bf/sites/default/files/evolutiondeseffectifsdesasinsparregion.xlsx> ;
+                                                                                                                                  dcat:mediaType "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                                                                                                                  foaf:page "https://data.gov.bf/dataset/evolution-des-effectifs-des-asins-par-r%C3%A9gion-en-milliers-de-2007-%C3%A0-2016/resource/9ab51dfd" .
+
+
+###  https://data.gov.bf/publisher/n0
+<https://data.gov.bf/publisher/n0> rdf:type owl:NamedIndividual ,
+                                            foaf:Agent ;
+                                   dcterms:type <http://purl.org/adms/publishertype/NonProfitOrganisation> ;
+                                   foaf:homepage "https://data.gov.bf" ;
+                                   foaf:name "DKAN" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

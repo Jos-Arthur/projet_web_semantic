@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+        <rdfs:Class rdf:ID="Bassins"/>
+        <rdfs:Property rdf:ID="Annee_2007">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>
+        <rdfs:Property rdf:ID="Annee_2009">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>
+        <rdfs:Property rdf:ID="Annee_2010">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>
+        <rdfs:Property rdf:ID="Annee_2011">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>
+        <rdfs:Property rdf:ID="Annee_2012">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>
+        <rdfs:Property rdf:ID="Annee_2013">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>
+        <rdfs:Property rdf:ID="Annee_2014">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>   
+        <rdfs:Property rdf:ID="Annee_2015">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>   
+        <rdfs:Property rdf:ID="Annee_2016">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>  
+        <rdfs:Property rdf:ID="Annee_2017">
+                <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Literal"/>
+        </rdfs:Property>         
+</rdf:RDF>

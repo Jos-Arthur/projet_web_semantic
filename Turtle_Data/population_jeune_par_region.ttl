@@ -1,0 +1,491 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dcterms:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dcterms:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble_2012
+ont:Ensemble_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble_2013
+ont:Ensemble_2013 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble_2014
+ont:Ensemble_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble_2015
+ont:Ensemble_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble_2016
+ont:Ensemble_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Femme_2012
+ont:Femme_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Femme_2013
+ont:Femme_2013 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Femme_2014
+ont:Femme_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Femme_2015
+ont:Femme_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Femme_2016
+ont:Femme_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Homme_2012
+ont:Homme_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Homme_2013
+ont:Homme_2013 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Homme_2014
+ont:Homme_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Homme_2015
+ont:Homme_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Homme_2016
+ont:Homme_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#byteSize
+dcat:byteSize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+dcat:downloadURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+foaf:page rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Regions
+ont:Regions rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Boucle_du_Mouhoun
+ont:Boucle_du_Mouhoun rdf:type owl:NamedIndividual ,
+                               ont:Regions ;
+                      ont:Ensemble_2012 525944 ;
+                      ont:Ensemble_2013 541890 ;
+                      ont:Ensemble_2014 558402 ;
+                      ont:Ensemble_2015 576033 ;
+                      ont:Ensemble_2016 595052 ;
+                      ont:Femme_2012 273177 ;
+                      ont:Femme_2013 280947 ;
+                      ont:Femme_2014 288733 ;
+                      ont:Femme_2015 296837 ;
+                      ont:Femme_2016 305392 ;
+                      ont:Homme_2012 252767 ;
+                      ont:Homme_2013 260943 ;
+                      ont:Homme_2014 269669 ;
+                      ont:Homme_2015 279196 ;
+                      ont:Homme_2016 289660 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Cascades
+ont:Cascades rdf:type owl:NamedIndividual ,
+                      ont:Regions ;
+             ont:Ensemble_2012 225376 ;
+             ont:Ensemble_2013 234423 ;
+             ont:Ensemble_2014 243769 ;
+             ont:Ensemble_2015 253643 ;
+             ont:Ensemble_2016 264187 ;
+             ont:Femme_2012 120421 ;
+             ont:Femme_2013 125054 ;
+             ont:Femme_2014 129725 ;
+             ont:Femme_2015 134562 ;
+             ont:Femme_2016 139634 ;
+             ont:Homme_2012 104955 ;
+             ont:Homme_2013 109369 ;
+             ont:Homme_2014 114044 ;
+             ont:Homme_2015 119081 ;
+             ont:Homme_2016 124553 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre
+ont:Centre rdf:type owl:NamedIndividual ,
+                    ont:Regions ;
+           ont:Ensemble_2012 932144 ;
+           ont:Ensemble_2013 974035 ;
+           ont:Ensemble_2014 1017278 ;
+           ont:Ensemble_2015 1062842 ;
+           ont:Ensemble_2016 1111254 ;
+           ont:Femme_2012 467509 ;
+           ont:Femme_2013 487948 ;
+           ont:Femme_2014 508668 ;
+           ont:Femme_2015 530097 ;
+           ont:Femme_2016 552471 ;
+           ont:Homme_2012 464635 ;
+           ont:Homme_2013 486087 ;
+           ont:Homme_2014 508610 ;
+           ont:Homme_2015 532745 ;
+           ont:Homme_2016 558783 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Est
+ont:Centre-Est rdf:type owl:NamedIndividual ,
+                        ont:Regions ;
+               ont:Ensemble_2012 407625 ;
+               ont:Ensemble_2013 421177 ;
+               ont:Ensemble_2014 435142 ;
+               ont:Ensemble_2015 449945 ;
+               ont:Ensemble_2016 465778 ;
+               ont:Femme_2012 235933 ;
+               ont:Femme_2013 243362 ;
+               ont:Femme_2014 250797 ;
+               ont:Femme_2015 258493 ;
+               ont:Femme_2016 266552 ;
+               ont:Homme_2012 171692 ;
+               ont:Homme_2013 177815 ;
+               ont:Homme_2014 184345 ;
+               ont:Homme_2015 191452 ;
+               ont:Homme_2016 199226 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Nord
+ont:Centre-Nord rdf:type owl:NamedIndividual ,
+                         ont:Regions ;
+                ont:Ensemble_2012 430304 ;
+                ont:Ensemble_2013 444284 ;
+                ont:Ensemble_2014 458734 ;
+                ont:Ensemble_2015 474065 ;
+                ont:Ensemble_2016 490457 ;
+                ont:Femme_2012 247651 ;
+                ont:Femme_2013 255264 ;
+                ont:Femme_2014 262921 ;
+                ont:Femme_2015 270840 ;
+                ont:Femme_2016 279113 ;
+                ont:Homme_2012 182653 ;
+                ont:Homme_2013 189020 ;
+                ont:Homme_2014 195813 ;
+                ont:Homme_2015 203225 ;
+                ont:Homme_2016 211344 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Ouest
+ont:Centre-Ouest rdf:type owl:NamedIndividual ,
+                          ont:Regions ;
+                 ont:Ensemble_2012 421129 ;
+                 ont:Ensemble_2013 434327 ;
+                 ont:Ensemble_2014 447919 ;
+                 ont:Ensemble_2015 462333 ;
+                 ont:Ensemble_2016 477797 ;
+                 ont:Femme_2012 244396 ;
+                 ont:Femme_2013 251589 ;
+                 ont:Femme_2014 258774 ;
+                 ont:Femme_2015 266210 ;
+                 ont:Femme_2016 274026 ;
+                 ont:Homme_2012 176733 ;
+                 ont:Homme_2013 182738 ;
+                 ont:Homme_2014 189145 ;
+                 ont:Homme_2015 196123 ;
+                 ont:Homme_2016 203771 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre-Sud
+ont:Centre-Sud rdf:type owl:NamedIndividual ,
+                        ont:Regions ;
+               ont:Ensemble_2012 220787 ;
+               ont:Ensemble_2013 227357 ;
+               ont:Ensemble_2014 234134 ;
+               ont:Ensemble_2015 241342 ;
+               ont:Ensemble_2016 249108 ;
+               ont:Femme_2012 124181 ;
+               ont:Femme_2013 127634 ;
+               ont:Femme_2014 131075 ;
+               ont:Femme_2015 134640 ;
+               ont:Femme_2016 138398 ;
+               ont:Homme_2012 96606 ;
+               ont:Homme_2013 99723 ;
+               ont:Homme_2014 103059 ;
+               ont:Homme_2015 106702 ;
+               ont:Homme_2016 110710 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Ensemble
+ont:Ensemble rdf:type owl:NamedIndividual ,
+                      ont:Regions ;
+             ont:Ensemble_2012 5492315 ;
+             ont:Ensemble_2013 5684956 ;
+             ont:Ensemble_2014 5883928 ;
+             ont:Ensemble_2015 6094847 ;
+             ont:Ensemble_2016 6320551 ;
+             ont:Femme_2012 2983045 ;
+             ont:Femme_2013 3082131 ;
+             ont:Femme_2014 3181790 ;
+             ont:Femme_2015 3284999 ;
+             ont:Femme_2016 3393180 ;
+             ont:Homme_2012 2509270 ;
+             ont:Homme_2013 2602825 ;
+             ont:Homme_2014 2702138 ;
+             ont:Homme_2015 2809848 ;
+             ont:Homme_2016 2927371 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Est
+ont:Est rdf:type owl:NamedIndividual ,
+                 ont:Regions ;
+        ont:Ensemble_2012 457799 ;
+        ont:Ensemble_2013 474226 ;
+        ont:Ensemble_2014 491198 ;
+        ont:Ensemble_2015 509190 ;
+        ont:Ensemble_2016 528428 ;
+        ont:Femme_2012 250648 ;
+        ont:Femme_2013 259266 ;
+        ont:Femme_2014 267931 ;
+        ont:Femme_2015 276885 ;
+        ont:Femme_2016 286249 ;
+        ont:Homme_2012 207151 ;
+        ont:Homme_2013 214960 ;
+        ont:Homme_2014 223267 ;
+        ont:Homme_2015 232305 ;
+        ont:Homme_2016 242179 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Hauts_Bassins
+ont:Hauts_Bassins rdf:type owl:NamedIndividual ,
+                           ont:Regions ;
+                  ont:Ensemble_2012 644684 ;
+                  ont:Ensemble_2013 667564 ;
+                  ont:Ensemble_2014 691200 ;
+                  ont:Ensemble_2015 716248 ;
+                  ont:Ensemble_2016 743059 ;
+                  ont:Femme_2012 336594 ;
+                  ont:Femme_2013 348025 ;
+                  ont:Femme_2014 359549 ;
+                  ont:Femme_2015 71488 ;
+                  ont:Femme_2016 384009 ;
+                  ont:Homme_2012 308090 ;
+                  ont:Homme_2013 319539 ;
+                  ont:Homme_2014 331651 ;
+                  ont:Homme_2015 344760 ;
+                  ont:Homme_2016 359050 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Nord
+ont:Nord rdf:type owl:NamedIndividual ,
+                  ont:Regions ;
+         ont:Ensemble_2012 407398 ;
+         ont:Ensemble_2013 420011 ;
+         ont:Ensemble_2014 433075 ;
+         ont:Ensemble_2015 446961 ;
+         ont:Ensemble_2016 461868 ;
+         ont:Femme_2012 233075 ;
+         ont:Femme_2013 239865 ;
+         ont:Femme_2014 246696 ;
+         ont:Femme_2015 253768 ;
+         ont:Femme_2016 261191 ;
+         ont:Homme_2012 174323 ;
+         ont:Homme_2013 180146 ;
+         ont:Homme_2014 186379 ;
+         ont:Homme_2015 193193 ;
+         ont:Homme_2016 200677 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Plateau_Central
+ont:Plateau_Central rdf:type owl:NamedIndividual ,
+                             ont:Regions ;
+                    ont:Ensemble_2012 239894 ;
+                    ont:Ensemble_2013 247090 ;
+                    ont:Ensemble_2014 254515 ;
+                    ont:Ensemble_2015 262419 ;
+                    ont:Ensemble_2016 270922 ;
+                    ont:Femme_2012 139662 ;
+                    ont:Femme_2013 143579 ;
+                    ont:Femme_2014 147497 ;
+                    ont:Femme_2015 151569 ;
+                    ont:Femme_2016 155859 ;
+                    ont:Homme_2012 100232 ;
+                    ont:Homme_2013 103511 ;
+                    ont:Homme_2014 107018 ;
+                    ont:Homme_2015 110850 ;
+                    ont:Homme_2016 115063 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sahel
+ont:Sahel rdf:type owl:NamedIndividual ,
+                   ont:Regions ;
+          ont:Ensemble_2012 364652 ;
+          ont:Ensemble_2013 377183 ;
+          ont:Ensemble_2014 390157 ;
+          ont:Ensemble_2015 403940 ;
+          ont:Ensemble_2016 418686 ;
+          ont:Femme_2012 193987 ;
+          ont:Femme_2013 200338 ;
+          ont:Femme_2014 206739 ;
+          ont:Femme_2015 213365 ;
+          ont:Femme_2016 220274 ;
+          ont:Homme_2012 170665 ;
+          ont:Homme_2013 176845 ;
+          ont:Homme_2014 183418 ;
+          ont:Homme_2015 190575 ;
+          ont:Homme_2016 198412 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sud-Ouest
+ont:Sud-Ouest rdf:type owl:NamedIndividual ,
+                       ont:Regions ;
+              ont:Ensemble_2012 214579 ;
+              ont:Ensemble_2013 221389 ;
+              ont:Ensemble_2014 228405 ;
+              ont:Ensemble_2015 235886 ;
+              ont:Ensemble_2016 243955 ;
+              ont:Femme_2012 115811 ;
+              ont:Femme_2013 119260 ;
+              ont:Femme_2014 122685 ;
+              ont:Femme_2015 126245 ;
+              ont:Femme_2016 130012 ;
+              ont:Homme_2012 98768 ;
+              ont:Homme_2013 102129 ;
+              ont:Homme_2014 105720 ;
+              ont:Homme_2015 109641 ;
+              ont:Homme_2016 113943 .
+
+
+###  https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016
+<https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016> rdf:type owl:NamedIndividual ,
+                                                                                                                                        dcat:Dataset ;
+                                                                                                                               dcterms:identifier "0fa1fc00-4d79-48a5-9fb4-fc85c73a9992" ;
+                                                                                                                               dcterms:issued "2019-05-20T17:05:56+00:00" ;
+                                                                                                                               dcterms:modified "2019-05-20T20:51:02+00:00" ;
+                                                                                                                               dcterms:publisher "Ministère de la Jeunesse, de la Formation Professionnelle et de l'Emploi " ;
+                                                                                                                               dcterms:title "Evolution de l'effectif de la population jeune par groupe d’âges de 2012 à 2016" ;
+                                                                                                                               dcat:distribution <https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource> ;
+                                                                                                                               dcat:theme "Jeunesse et emploi" .
+
+
+###  https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource
+<https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource> rdf:type owl:NamedIndividual ,
+                                                                                                                                                 dcat:Distribution ;
+                                                                                                                                        dcterms:description "" ;
+                                                                                                                                        dcterms:format "xlsx" ;
+                                                                                                                                        dcterms:issued "2019-05-20T17:06:46+00:00" ;
+                                                                                                                                        dcterms:modified "2019-05-20T17:06:46+00:00" ;
+                                                                                                                                        dcterms:title "Evolution de l'effectif de la population jeune par groupe d’âges de 2012 à 2016" ;
+                                                                                                                                        dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%25u2019âges-de-2012-à-2016.xml> ;
+                                                                                                                                        dcat:byteSize "9755" ;
+                                                                                                                                        dcat:downloadURL <https://data.gov.bf/sites/default/files/evolutiondeleffectifdelapopulationjeunepargroupedages.xlsx> ;
+                                                                                                                                        dcat:mediaType "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                                                                                                                        foaf:page "https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource" .
+
+
+###  https://data.gov.bf/publisher/n0
+<https://data.gov.bf/publisher/n0> rdf:type owl:NamedIndividual ,
+                                            foaf:Agent ;
+                                   dcterms:type <http://purl.org/adms/publishertype/NonProfitOrganisation> ;
+                                   foaf:homepage "https://data.gov.bf" ;
+                                   foaf:name "DKAN" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

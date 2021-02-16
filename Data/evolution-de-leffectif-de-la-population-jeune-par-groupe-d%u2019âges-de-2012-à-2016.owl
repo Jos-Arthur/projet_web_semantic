@@ -1,0 +1,1404 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="ont" IRI="http://www.co-ode.org/ontologies/ont.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="adms" IRI="http://www.w3.org/ns/adms#"/>
+    <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="time" IRI="http://www.w3.org/2006/time#"/>
+    <Prefix name="vcard" IRI="http://www.w3.org/2006/vcard/ns#"/>
+    <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
+    <Declaration>
+        <Class abbreviatedIRI="ont:Regions"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dcat:Dataset"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Agent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Boucle_du_Mouhoun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Cascades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Est"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Nord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Ouest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Sud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Ensemble"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Est"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Hauts_Bassins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Nord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Plateau_Central"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Sahel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Sud-Ouest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/publisher/n0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:type"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:theme"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Boucle_du_Mouhoun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Cascades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Nord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Ouest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre-Sud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Ensemble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Hauts_Bassins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Nord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Plateau_Central"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Sahel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Regions"/>
+        <NamedIndividual abbreviatedIRI="ont:Sud-Ouest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Dataset"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="foaf:Agent"/>
+        <NamedIndividual IRI="https://data.gov.bf/publisher/n0"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">525944</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">541890</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">558402</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">576033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">595052</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">273177</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">280947</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">288733</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">296837</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">305392</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">252767</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">260943</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">269669</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">279196</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">289660</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">225376</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">234423</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">243769</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">253643</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">264187</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">120421</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">125054</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">129725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">134562</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">139634</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">104955</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">109369</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">114044</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">119081</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">124553</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">932144</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">974035</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1017278</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1062842</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1111254</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">467509</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">487948</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">508668</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">530097</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">552471</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">464635</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">486087</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">508610</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">532745</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">558783</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">407625</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">421177</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">435142</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">449945</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">465778</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">235933</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">243362</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250797</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">258493</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">266552</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">171692</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">177815</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">184345</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">191452</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">199226</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">430304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">444284</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">458734</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">474065</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">490457</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">247651</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">255264</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">262921</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">270840</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">279113</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">182653</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">189020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">195813</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">203225</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">211344</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">421129</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">434327</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">447919</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">462333</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">477797</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">244396</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">251589</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">258774</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">266210</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">274026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">176733</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">182738</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">189145</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">196123</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">203771</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">220787</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">227357</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">234134</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">241342</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">249108</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">124181</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">127634</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">131075</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">134640</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">138398</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">96606</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99723</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">103059</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">106702</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Centre-Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">110710</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5492315</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5684956</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5883928</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6094847</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6320551</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2983045</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3082131</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3181790</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3284999</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3393180</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2509270</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2602825</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2702138</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2809848</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Ensemble</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2927371</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">457799</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">474226</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">491198</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">509190</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">528428</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250648</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">259266</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">267931</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">276885</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">286249</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">207151</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">214960</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">223267</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">232305</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">242179</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">644684</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">667564</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">691200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">716248</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">743059</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">336594</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">348025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">359549</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">71488</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">384009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">308090</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">319539</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">331651</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">344760</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">359050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">407398</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">420011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">433075</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">446961</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">461868</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">233075</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">239865</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">246696</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">253768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">261191</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">174323</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">180146</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">186379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">193193</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200677</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">239894</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">247090</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">254515</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">262419</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">270922</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">139662</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">143579</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">147497</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">151569</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">155859</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100232</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">103511</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">107018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">110850</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">115063</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">364652</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">377183</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">390157</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">403940</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">418686</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">193987</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200338</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">206739</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">213365</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">220274</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">170665</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">176845</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">183418</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">190575</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">198412</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2012"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">214579</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2013"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">221389</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2014"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">228405</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2015"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">235886</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Ensemble_2016"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">243955</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2012"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">115811</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2013"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">119260</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2014"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">122685</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2015"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">126245</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Femme_2016"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2012"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">98768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2013"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">102129</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2014"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">105720</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2015"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">109641</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Homme_2016"/>
+        <AbbreviatedIRI>ont:Sud-Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">113943</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:identifier"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <Literal>0fa1fc00-4d79-48a5-9fb4-fc85c73a9992</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <Literal>2019-05-20T17:05:56+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <Literal>2019-05-20T20:51:02+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:publisher"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <Literal>Ministère de la Jeunesse, de la Formation Professionnelle et de l&apos;Emploi </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <Literal>Evolution de l&apos;effectif de la population jeune par groupe d’âges de 2012 à 2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:theme"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016</IRI>
+        <Literal>Jeunesse et emploi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>xlsx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>2019-05-20T17:06:46+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>2019-05-20T17:06:46+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>Evolution de l&apos;effectif de la population jeune par groupe d’âges de 2012 à 2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <IRI>file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%25u2019âges-de-2012-à-2016.xml</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>9755</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <IRI>https://data.gov.bf/sites/default/files/evolutiondeleffectifdelapopulationjeunepargroupedages.xlsx</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+        <IRI>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</IRI>
+        <Literal>https://data.gov.bf/dataset/evolution-de-leffectif-de-la-population-jeune-par-groupe-d%E2%80%99%C3%A2ges-de-2012-%C3%A0-2016/resource</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:type"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <IRI>http://purl.org/adms/publishertype/NonProfitOrganisation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <Literal>https://data.gov.bf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <Literal>DKAN</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

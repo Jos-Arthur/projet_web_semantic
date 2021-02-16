@@ -1,0 +1,4 @@
+prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> 
+select * where {
+  ?x ont:Annee_2015 ?nombre_distribution
+}

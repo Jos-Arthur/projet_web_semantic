@@ -1,0 +1,5 @@
+prefix ont: <http://www.co-ode.org/ontologies/ont.owl#>
+select ?region ?nbre_chambre
+where {
+  ?region ont:Annee_2017 ?nbre_chambre
+}

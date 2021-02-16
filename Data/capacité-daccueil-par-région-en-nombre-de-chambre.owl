@@ -1,0 +1,896 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="ont" IRI="http://www.co-ode.org/ontologies/ont.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="adms" IRI="http://www.w3.org/ns/adms#"/>
+    <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="time" IRI="http://www.w3.org/2006/time#"/>
+    <Prefix name="vcard" IRI="http://www.w3.org/2006/vcard/ns#"/>
+    <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dcat:Dataset"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Agent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Boucle_du_Mouhoun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Cascades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Est"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Nord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Ouest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Sud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Est"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Hauts_Bassins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Nord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Plateau_Central"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Sahel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Sud_Ouest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/publisher/n0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:type"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:theme"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Boucle_du_Mouhoun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Burkina_Faso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Cascades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Nord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Ouest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Sud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Hauts_Bassins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Nord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Plateau_Central"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Sahel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Capacite_d&apos;accueil"/>
+        <NamedIndividual abbreviatedIRI="ont:Sud_Ouest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Dataset"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="foaf:Agent"/>
+        <NamedIndividual IRI="https://data.gov.bf/publisher/n0"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">230</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">334</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">383</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">383</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">516</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">602</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5771</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6576</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8397</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9494</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9494</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11041</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">245</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">343</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">699</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">699</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">592</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">592</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2613</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3103</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3594</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3726</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3726</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">348</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">208</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">237</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">237</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">581</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">531</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">197</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">293</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">628</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">661</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">661</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">730</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">733</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">188</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">240</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">424</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">607</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">607</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">814</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">984</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">131</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">302</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">182</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">246</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">246</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">352</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">352</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">191</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">276</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">377</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">452</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">452</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">586</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">586</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">952</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">978</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1472</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1497</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1497</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1296</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1314</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">219</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">282</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">337</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">371</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">371</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">468</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">420</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">147</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">128</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">173</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">196</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">220</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">165</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">166</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">295</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">295</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">286</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">318</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2007"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">107</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">202</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">190</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">190</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">351</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>&lt;p&gt;il s&apos;agit du nombre de chambre disponible pour chaque région&lt;/p&gt;
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:identifier"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>003d7c3f-0fe0-40b9-a3f5-a4dd5caad1aa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>2019-05-20T15:15:00+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>2019-05-20T16:55:03+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:publisher"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>Ministère de la Culture et du Tourisme </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>Capacité d&apos;accueil par région en nombre de chambre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>chambre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:theme"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre</IRI>
+        <Literal>Tourisme et culture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>csv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>2019-05-20T15:17:41+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>2019-05-20T15:17:41+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>Capacité d&apos;accueil par région en nombre de chambre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <IRI>file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/capacité-daccueil-par-région-en-nombre-de-chambre.xml</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>609</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <IRI>https://data.gov.bf/sites/default/files/tableau190601.csv</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>text/csv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</IRI>
+        <Literal>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>xlsx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>2019-05-20T15:16:48+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>2019-05-20T15:16:48+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>Capacité d&apos;accueil par région en nombre de chambre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <IRI>file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/capacité-daccueil-par-région-en-nombre-de-chambre.xml</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>8916</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <IRI>https://data.gov.bf/sites/default/files/tableau190601.xlsx</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+        <IRI>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</IRI>
+        <Literal>https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:type"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <IRI>http://purl.org/adms/publishertype/NonProfitOrganisation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <Literal>https://data.gov.bf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <Literal>DKAN</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

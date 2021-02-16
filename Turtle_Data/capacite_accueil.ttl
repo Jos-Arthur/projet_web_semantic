@@ -1,0 +1,370 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dcterms:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dcterms:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2007
+ont:Annee_2007 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2010
+ont:Annee_2010 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2012
+ont:Annee_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2014
+ont:Annee_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2015
+ont:Annee_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2016
+ont:Annee_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2017
+ont:Annee_2017 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#byteSize
+dcat:byteSize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+dcat:downloadURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#keyword
+dcat:keyword rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+foaf:page rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil
+<http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Boucle_du_Mouhoun
+ont:Boucle_du_Mouhoun rdf:type owl:NamedIndividual ,
+                               <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+                      ont:Annee_2007 213 ;
+                      ont:Annee_2010 230 ;
+                      ont:Annee_2012 334 ;
+                      ont:Annee_2014 383 ;
+                      ont:Annee_2015 383 ;
+                      ont:Annee_2016 516 ;
+                      ont:Annee_2017 602 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Burkina_Faso
+ont:Burkina_Faso rdf:type owl:NamedIndividual ,
+                          <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+                 ont:Annee_2007 5771 ;
+                 ont:Annee_2010 6576 ;
+                 ont:Annee_2012 8397 ;
+                 ont:Annee_2014 9494 ;
+                 ont:Annee_2015 9494 ;
+                 ont:Annee_2016 10768 ;
+                 ont:Annee_2017 11041 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Cascades
+ont:Cascades rdf:type owl:NamedIndividual ,
+                      <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+             ont:Annee_2007 245 ;
+             ont:Annee_2010 279 ;
+             ont:Annee_2012 343 ;
+             ont:Annee_2014 699 ;
+             ont:Annee_2015 699 ;
+             ont:Annee_2016 592 ;
+             ont:Annee_2017 592 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre
+ont:Centre rdf:type owl:NamedIndividual ,
+                    <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+           ont:Annee_2007 2613 ;
+           ont:Annee_2010 3103 ;
+           ont:Annee_2012 3594 ;
+           ont:Annee_2014 3726 ;
+           ont:Annee_2015 3726 ;
+           ont:Annee_2016 4023 ;
+           ont:Annee_2017 4033 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Est
+ont:Centre_Est rdf:type owl:NamedIndividual ,
+                        <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+               ont:Annee_2007 348 ;
+               ont:Annee_2010 200 ;
+               ont:Annee_2012 208 ;
+               ont:Annee_2014 237 ;
+               ont:Annee_2015 237 ;
+               ont:Annee_2016 581 ;
+               ont:Annee_2017 531 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Nord
+ont:Centre_Nord rdf:type owl:NamedIndividual ,
+                         <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+                ont:Annee_2007 197 ;
+                ont:Annee_2010 293 ;
+                ont:Annee_2012 628 ;
+                ont:Annee_2014 661 ;
+                ont:Annee_2015 661 ;
+                ont:Annee_2016 730 ;
+                ont:Annee_2017 733 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Ouest
+ont:Centre_Ouest rdf:type owl:NamedIndividual ,
+                          <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+                 ont:Annee_2007 188 ;
+                 ont:Annee_2010 240 ;
+                 ont:Annee_2012 424 ;
+                 ont:Annee_2014 607 ;
+                 ont:Annee_2015 607 ;
+                 ont:Annee_2016 814 ;
+                 ont:Annee_2017 984 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Sud
+ont:Centre_Sud rdf:type owl:NamedIndividual ,
+                        <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+               ont:Annee_2007 131 ;
+               ont:Annee_2010 302 ;
+               ont:Annee_2012 182 ;
+               ont:Annee_2014 246 ;
+               ont:Annee_2015 246 ;
+               ont:Annee_2016 352 ;
+               ont:Annee_2017 352 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Est
+ont:Est rdf:type owl:NamedIndividual ,
+                 <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+        ont:Annee_2007 191 ;
+        ont:Annee_2010 276 ;
+        ont:Annee_2012 377 ;
+        ont:Annee_2014 452 ;
+        ont:Annee_2015 452 ;
+        ont:Annee_2016 586 ;
+        ont:Annee_2017 586 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Hauts_Bassins
+ont:Hauts_Bassins rdf:type owl:NamedIndividual ,
+                           <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+                  ont:Annee_2007 952 ;
+                  ont:Annee_2010 978 ;
+                  ont:Annee_2012 1472 ;
+                  ont:Annee_2014 1497 ;
+                  ont:Annee_2015 1497 ;
+                  ont:Annee_2016 1296 ;
+                  ont:Annee_2017 1314 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Nord
+ont:Nord rdf:type owl:NamedIndividual ,
+                  <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+         ont:Annee_2007 219 ;
+         ont:Annee_2010 282 ;
+         ont:Annee_2012 337 ;
+         ont:Annee_2014 371 ;
+         ont:Annee_2015 371 ;
+         ont:Annee_2016 468 ;
+         ont:Annee_2017 420 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Plateau_Central
+ont:Plateau_Central rdf:type owl:NamedIndividual ,
+                             <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+                    ont:Annee_2007 147 ;
+                    ont:Annee_2010 128 ;
+                    ont:Annee_2012 130 ;
+                    ont:Annee_2014 130 ;
+                    ont:Annee_2015 130 ;
+                    ont:Annee_2016 173 ;
+                    ont:Annee_2017 196 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sahel
+ont:Sahel rdf:type owl:NamedIndividual ,
+                   <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+          ont:Annee_2007 220 ;
+          ont:Annee_2010 165 ;
+          ont:Annee_2012 166 ;
+          ont:Annee_2014 295 ;
+          ont:Annee_2015 295 ;
+          ont:Annee_2016 286 ;
+          ont:Annee_2017 318 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sud_Ouest
+ont:Sud_Ouest rdf:type owl:NamedIndividual ,
+                       <http://www.co-ode.org/ontologies/ont.owl#Capacite_d'accueil> ;
+              ont:Annee_2007 107 ;
+              ont:Annee_2010 100 ;
+              ont:Annee_2012 202 ;
+              ont:Annee_2014 190 ;
+              ont:Annee_2015 190 ;
+              ont:Annee_2016 351 ;
+              ont:Annee_2017 380 .
+
+
+###  https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre
+<https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre> rdf:type owl:NamedIndividual ,
+                                                                                                   dcat:Dataset ;
+                                                                                          dcterms:description """<p>il s'agit du nombre de chambre disponible pour chaque région</p>
+""" ;
+                                                                                          dcterms:identifier "003d7c3f-0fe0-40b9-a3f5-a4dd5caad1aa" ;
+                                                                                          dcterms:issued "2019-05-20T15:15:00+00:00" ;
+                                                                                          dcterms:modified "2019-05-20T16:55:03+00:00" ;
+                                                                                          dcterms:publisher "Ministère de la Culture et du Tourisme " ;
+                                                                                          dcterms:title "Capacité d'accueil par région en nombre de chambre" ;
+                                                                                          dcat:distribution <https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d> ,
+                                                                                                            <https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926> ;
+                                                                                          dcat:keyword "chambre" ;
+                                                                                          dcat:theme "Tourisme et culture" .
+
+
+###  https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d
+<https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d> rdf:type owl:NamedIndividual ,
+                                                                                                                                    dcat:Distribution ;
+                                                                                                                           dcterms:description "" ;
+                                                                                                                           dcterms:format "csv" ;
+                                                                                                                           dcterms:issued "2019-05-20T15:17:41+00:00" ;
+                                                                                                                           dcterms:modified "2019-05-20T15:17:41+00:00" ;
+                                                                                                                           dcterms:title "Capacité d'accueil par région en nombre de chambre" ;
+                                                                                                                           dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/capacité-daccueil-par-région-en-nombre-de-chambre.xml> ;
+                                                                                                                           dcat:byteSize "609" ;
+                                                                                                                           dcat:downloadURL <https://data.gov.bf/sites/default/files/tableau190601.csv> ;
+                                                                                                                           dcat:mediaType "text/csv" ;
+                                                                                                                           foaf:page "https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/b5c82f62-0718-4c4d-af1d" .
+
+
+###  https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926
+<https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926> rdf:type owl:NamedIndividual ,
+                                                                                                                                    dcat:Distribution ;
+                                                                                                                           dcterms:description "" ;
+                                                                                                                           dcterms:format "xlsx" ;
+                                                                                                                           dcterms:issued "2019-05-20T15:16:48+00:00" ;
+                                                                                                                           dcterms:modified "2019-05-20T15:16:48+00:00" ;
+                                                                                                                           dcterms:title "Capacité d'accueil par région en nombre de chambre" ;
+                                                                                                                           dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/capacité-daccueil-par-région-en-nombre-de-chambre.xml> ;
+                                                                                                                           dcat:byteSize "8916" ;
+                                                                                                                           dcat:downloadURL <https://data.gov.bf/sites/default/files/tableau190601.xlsx> ;
+                                                                                                                           dcat:mediaType "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                                                                                                           foaf:page "https://data.gov.bf/dataset/capacit%C3%A9-daccueil-par-r%C3%A9gion-en-nombre-de-chambre/resource/342527d9-7767-4481-b926" .
+
+
+###  https://data.gov.bf/publisher/n0
+<https://data.gov.bf/publisher/n0> rdf:type owl:NamedIndividual ,
+                                            foaf:Agent ;
+                                   dcterms:type <http://purl.org/adms/publishertype/NonProfitOrganisation> ;
+                                   foaf:homepage "https://data.gov.bf" ;
+                                   foaf:name "DKAN" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

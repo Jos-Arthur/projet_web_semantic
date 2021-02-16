@@ -1,0 +1,417 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/description
+dcterms:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/format
+dcterms:format rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dcterms:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dcterms:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dcterms:modified rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+dcterms:publisher rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+dcterms:title rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/type
+dcterms:type rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2007
+ont:Annee_2007 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2008
+ont:Annee_2008 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2009
+ont:Annee_2009 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2010
+ont:Annee_2010 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2011
+ont:Annee_2011 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2012
+ont:Annee_2012 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2013
+ont:Annee_2013 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2014
+ont:Annee_2014 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2015
+ont:Annee_2015 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Annee_2016
+ont:Annee_2016 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#accessURL
+dcat:accessURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#byteSize
+dcat:byteSize rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadURL
+dcat:downloadURL rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#theme
+dcat:theme rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/homepage
+foaf:homepage rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+foaf:page rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Routes
+ont:Routes rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+foaf:Agent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#Boucle_du_Mouhoun
+ont:Boucle_du_Mouhoun rdf:type owl:NamedIndividual ,
+                               ont:Routes ;
+                      ont:Annee_2007 742 ;
+                      ont:Annee_2008 781 ;
+                      ont:Annee_2009 781 ;
+                      ont:Annee_2010 781 ;
+                      ont:Annee_2011 781 ;
+                      ont:Annee_2012 781 ;
+                      ont:Annee_2013 781 ;
+                      ont:Annee_2014 781 ;
+                      ont:Annee_2015 781 ;
+                      ont:Annee_2016 781 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Burkina_Faso
+ont:Burkina_Faso rdf:type owl:NamedIndividual ,
+                          ont:Routes ;
+                 ont:Annee_2007 "4 994" ;
+                 ont:Annee_2008 "5 015" ;
+                 ont:Annee_2009 "5 016" ;
+                 ont:Annee_2010 "5 017" ;
+                 ont:Annee_2011 "5 026" ;
+                 ont:Annee_2012 "5 026" ;
+                 ont:Annee_2013 "5 026" ;
+                 ont:Annee_2014 "5 026" ;
+                 ont:Annee_2015 "5 026" ;
+                 ont:Annee_2016 "5 026" .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Cascades
+ont:Cascades rdf:type owl:NamedIndividual ,
+                      ont:Routes ;
+             ont:Annee_2007 303 ;
+             ont:Annee_2008 299 ;
+             ont:Annee_2009 300 ;
+             ont:Annee_2010 301 ;
+             ont:Annee_2011 299 ;
+             ont:Annee_2012 299 ;
+             ont:Annee_2013 299 ;
+             ont:Annee_2014 299 ;
+             ont:Annee_2015 299 ;
+             ont:Annee_2016 299 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre
+ont:Centre rdf:type owl:NamedIndividual ,
+                    ont:Routes ;
+           ont:Annee_2007 7 ;
+           ont:Annee_2008 " 9" ;
+           ont:Annee_2009 " 10" ;
+           ont:Annee_2010 " 11" ;
+           ont:Annee_2011 9 ;
+           ont:Annee_2012 9 ;
+           ont:Annee_2013 9 ;
+           ont:Annee_2014 9 ;
+           ont:Annee_2015 9 ;
+           ont:Annee_2016 9 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Est
+ont:Centre_Est rdf:type owl:NamedIndividual ,
+                        ont:Routes ;
+               ont:Annee_2007 214 ;
+               ont:Annee_2008 197 ;
+               ont:Annee_2009 197 ;
+               ont:Annee_2010 197 ;
+               ont:Annee_2011 178 ;
+               ont:Annee_2012 178 ;
+               ont:Annee_2013 178 ;
+               ont:Annee_2014 178 ;
+               ont:Annee_2015 178 ;
+               ont:Annee_2016 178 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Nord
+ont:Centre_Nord rdf:type owl:NamedIndividual ,
+                         ont:Routes ;
+                ont:Annee_2007 383 ;
+                ont:Annee_2008 367 ;
+                ont:Annee_2009 367 ;
+                ont:Annee_2010 367 ;
+                ont:Annee_2011 367 ;
+                ont:Annee_2012 367 ;
+                ont:Annee_2013 367 ;
+                ont:Annee_2014 367 ;
+                ont:Annee_2015 367 ;
+                ont:Annee_2016 367 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Ouest
+ont:Centre_Ouest rdf:type owl:NamedIndividual ,
+                          ont:Routes ;
+                 ont:Annee_2007 635 ;
+                 ont:Annee_2008 633 ;
+                 ont:Annee_2009 633 ;
+                 ont:Annee_2010 633 ;
+                 ont:Annee_2011 633 ;
+                 ont:Annee_2012 633 ;
+                 ont:Annee_2013 633 ;
+                 ont:Annee_2014 633 ;
+                 ont:Annee_2015 633 ;
+                 ont:Annee_2016 633 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Centre_Sud
+ont:Centre_Sud rdf:type owl:NamedIndividual ,
+                        ont:Routes ;
+               ont:Annee_2007 228 ;
+               ont:Annee_2008 246 ;
+               ont:Annee_2009 246 ;
+               ont:Annee_2010 246 ;
+               ont:Annee_2011 246 ;
+               ont:Annee_2012 246 ;
+               ont:Annee_2013 246 ;
+               ont:Annee_2014 246 ;
+               ont:Annee_2015 246 ;
+               ont:Annee_2016 246 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Est
+ont:Est rdf:type owl:NamedIndividual ,
+                 ont:Routes ;
+        ont:Annee_2007 514 ;
+        ont:Annee_2008 518 ;
+        ont:Annee_2009 518 ;
+        ont:Annee_2010 518 ;
+        ont:Annee_2011 518 ;
+        ont:Annee_2012 518 ;
+        ont:Annee_2013 518 ;
+        ont:Annee_2014 518 ;
+        ont:Annee_2015 518 ;
+        ont:Annee_2016 518 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Hauts_Bassins
+ont:Hauts_Bassins rdf:type owl:NamedIndividual ,
+                           ont:Routes ;
+                  ont:Annee_2007 287 ;
+                  ont:Annee_2008 313 ;
+                  ont:Annee_2009 313 ;
+                  ont:Annee_2010 313 ;
+                  ont:Annee_2011 313 ;
+                  ont:Annee_2012 313 ;
+                  ont:Annee_2013 313 ;
+                  ont:Annee_2014 313 ;
+                  ont:Annee_2015 313 ;
+                  ont:Annee_2016 313 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Nord
+ont:Nord rdf:type owl:NamedIndividual ,
+                  ont:Routes ;
+         ont:Annee_2007 569 ;
+         ont:Annee_2008 581 ;
+         ont:Annee_2009 581 ;
+         ont:Annee_2010 581 ;
+         ont:Annee_2011 581 ;
+         ont:Annee_2012 581 ;
+         ont:Annee_2013 581 ;
+         ont:Annee_2014 581 ;
+         ont:Annee_2015 581 ;
+         ont:Annee_2016 581 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Plateau_Central
+ont:Plateau_Central rdf:type owl:NamedIndividual ,
+                             ont:Routes ;
+                    ont:Annee_2007 253 ;
+                    ont:Annee_2008 246 ;
+                    ont:Annee_2009 246 ;
+                    ont:Annee_2010 246 ;
+                    ont:Annee_2011 246 ;
+                    ont:Annee_2012 246 ;
+                    ont:Annee_2013 246 ;
+                    ont:Annee_2014 246 ;
+                    ont:Annee_2015 246 ;
+                    ont:Annee_2016 246 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sahel
+ont:Sahel rdf:type owl:NamedIndividual ,
+                   ont:Routes ;
+          ont:Annee_2007 521 ;
+          ont:Annee_2008 503 ;
+          ont:Annee_2009 503 ;
+          ont:Annee_2010 503 ;
+          ont:Annee_2011 524 ;
+          ont:Annee_2012 524 ;
+          ont:Annee_2013 524 ;
+          ont:Annee_2014 524 ;
+          ont:Annee_2015 524 ;
+          ont:Annee_2016 524 .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Sud_Ouest
+ont:Sud_Ouest rdf:type owl:NamedIndividual ,
+                       ont:Routes ;
+              ont:Annee_2007 338 ;
+              ont:Annee_2008 331 ;
+              ont:Annee_2009 331 ;
+              ont:Annee_2010 331 ;
+              ont:Annee_2011 331 ;
+              ont:Annee_2012 331 ;
+              ont:Annee_2013 331 ;
+              ont:Annee_2014 331 ;
+              ont:Annee_2015 331 ;
+              ont:Annee_2016 331 .
+
+
+###  https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km
+<https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km> rdf:type owl:NamedIndividual ,
+                                                                                                          dcat:Dataset ;
+                                                                                                 dcterms:identifier "41cca14a-a9b2-4113-ba76-9ba4b984c702" ;
+                                                                                                 dcterms:issued "2019-05-28T17:08:37+00:00" ;
+                                                                                                 dcterms:modified "2019-05-28T19:46:35+00:00" ;
+                                                                                                 dcterms:publisher "Ministère des Infrastructures, du Désenclavement et des Transports " ;
+                                                                                                 dcterms:title "Linéaire de routes départementales par région (en km)" ;
+                                                                                                 dcat:distribution <https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/2dbc96a8-2b47-40bb-aaa1> ,
+                                                                                                                   <https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/66a2b5cb-5dfa-402f-b253> ;
+                                                                                                 dcat:theme "Transports" .
+
+
+###  https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/2dbc96a8-2b47-40bb-aaa1
+<https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/2dbc96a8-2b47-40bb-aaa1> rdf:type owl:NamedIndividual ,
+                                                                                                                                           dcat:Distribution ;
+                                                                                                                                  dcterms:description "" ;
+                                                                                                                                  dcterms:format "xlsx" ;
+                                                                                                                                  dcterms:issued "2019-05-28T17:09:30+00:00" ;
+                                                                                                                                  dcterms:modified "2019-05-28T17:09:30+00:00" ;
+                                                                                                                                  dcterms:title "Linéaire de routes départementales par région (en km)" ;
+                                                                                                                                  dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/linéaire-de-routes-départementales-par-région-en-km.xml> ;
+                                                                                                                                  dcat:byteSize "9938" ;
+                                                                                                                                  dcat:downloadURL <https://data.gov.bf/sites/default/files/infra4.xlsx> ;
+                                                                                                                                  dcat:mediaType "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" ;
+                                                                                                                                  foaf:page "https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/2dbc96a8-2b47-40bb-aaa1" .
+
+
+###  https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/66a2b5cb-5dfa-402f-b253
+<https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/66a2b5cb-5dfa-402f-b253> rdf:type owl:NamedIndividual ,
+                                                                                                                                           dcat:Distribution ;
+                                                                                                                                  dcterms:description "" ;
+                                                                                                                                  dcterms:format "csv" ;
+                                                                                                                                  dcterms:issued "2019-05-28T17:10:21+00:00" ;
+                                                                                                                                  dcterms:modified "2019-05-28T17:10:21+00:00" ;
+                                                                                                                                  dcterms:title "Linéaire de routes départementales par région (en km)" ;
+                                                                                                                                  dcat:accessURL <file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/linéaire-de-routes-départementales-par-région-en-km.xml> ;
+                                                                                                                                  dcat:byteSize "780" ;
+                                                                                                                                  dcat:downloadURL <https://data.gov.bf/sites/default/files/infra4.csv> ;
+                                                                                                                                  dcat:mediaType "text/csv" ;
+                                                                                                                                  foaf:page "https://data.gov.bf/dataset/lin%C3%A9aire-de-routes-d%C3%A9partementales-par-r%C3%A9gion-en-km/resource/66a2b5cb-5dfa-402f-b253" .
+
+
+###  https://data.gov.bf/publisher/n0
+<https://data.gov.bf/publisher/n0> rdf:type owl:NamedIndividual ,
+                                            foaf:Agent ;
+                                   dcterms:type <http://purl.org/adms/publishertype/NonProfitOrganisation> ;
+                                   foaf:homepage "https://data.gov.bf" ;
+                                   foaf:name "DKAN" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

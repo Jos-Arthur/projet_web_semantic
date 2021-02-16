@@ -1,0 +1,961 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="ont" IRI="http://www.co-ode.org/ontologies/ont.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="adms" IRI="http://www.w3.org/ns/adms#"/>
+    <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="time" IRI="http://www.w3.org/2006/time#"/>
+    <Prefix name="vcard" IRI="http://www.w3.org/2006/vcard/ns#"/>
+    <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
+    <Declaration>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dcat:Dataset"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Agent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Boucle_du_Mouhoun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Cascades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Est"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Nord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Ouest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Sud"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Est"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Hauts_Bassins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Nord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Plateau_Central"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Sahel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="ont:Sud_Ouest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://data.gov.bf/publisher/n0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:identifier"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:publisher"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:type"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcat:theme"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Boucle_du_Mouhoun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Burkina_Faso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Cascades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Nord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Ouest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Centre_Sud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Est"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Hauts_Bassins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Nord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Plateau_Central"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Sahel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ont:Reseaux_distribution"/>
+        <NamedIndividual abbreviatedIRI="ont:Sud_Ouest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Dataset"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="dcat:Distribution"/>
+        <NamedIndividual IRI="https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="foaf:Agent"/>
+        <NamedIndividual IRI="https://data.gov.bf/publisher/n0"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">416</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">510</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">742</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">830</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">855</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">914</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1336</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Boucle_du_Mouhoun</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1561</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8963</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9581</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10593</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11528</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12073</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13368</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14789</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Burkina_Faso</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15716</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">292</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">317</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">317</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">380</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Cascades</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">405</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3676</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3954</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4214</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4331</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4491</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4572</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">407</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">432</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">459</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">628</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">926</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1178</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1188</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">412</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">445</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">508</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">541</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">546</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">672</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">737</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">803</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">691</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">787</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">859</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1036</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1066</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1420</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1538</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1649</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">255</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">275</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">281</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">390</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">562</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">565</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">608</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Centre_Sud</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">614</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">332</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">364</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">372</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">474</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">478</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">481</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Est</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">484</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1519</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1570</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1773</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1927</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1940</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2040</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Hauts_Bassins</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2264</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">429</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">503</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">602</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">611</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">685</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">891</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">955</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Nord</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">204</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">229</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">281</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">286</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">295</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">340</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">362</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Plateau_Central</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">364</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">184</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">274</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">236</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">234</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">238</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">245</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Sahel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">483</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2010"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">188</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2011"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2012"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">216</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2013"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">366</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2014"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">235</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2015"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">235</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2016"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">279</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ont:Annee_2017"/>
+        <AbbreviatedIRI>ont:Sud_Ouest</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">305</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>&lt;p&gt;Longueur des lignes électriques qui alimentent les clients au sein d&apos;une région de 2010 à 2017.&lt;/p&gt;
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:identifier"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>249dcf74-81aa-47e6-9029-b3d30e22151c</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>2019-05-21T10:54:24+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>2019-05-21T14:13:43+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:publisher"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>Ministère de l&apos;Énergie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>Longueur du réseau de distribution par région (km)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:distribution"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:theme"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km</IRI>
+        <Literal>Energie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>csv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>2019-05-21T10:56:36+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>2019-05-21T10:56:36+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>Longueur du réseau de distribution par région (km)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <IRI>file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/longueur-du-réseau-de-distribution-par-région-km.xml</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>696</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <IRI>https://data.gov.bf/sites/default/files/energiejeu13.csv</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>text/csv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</IRI>
+        <Literal>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/2ab3b1ea-3b20-45b2-9752</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:description"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:format"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>xlsx</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:issued"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>2019-05-21T10:55:44+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:modified"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>2019-05-21T10:55:44+00:00</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:title"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>Longueur du réseau de distribution par région (km)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:accessURL"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <IRI>file:/home/jose-arthur/Bureau/Current%20Works/WEBSEM/Web_Semantique/Projet%20Web%20Semantique/Data/www/longueur-du-réseau-de-distribution-par-région-km.xml</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:byteSize"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>9592</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:downloadURL"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <IRI>https://data.gov.bf/sites/default/files/energiejeu13.xlsx</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcat:mediaType"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:page"/>
+        <IRI>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</IRI>
+        <Literal>https://data.gov.bf/dataset/longueur-du-r%C3%A9seau-de-distribution-par-r%C3%A9gion-km/resource/6280e729-ac89-43ac-9f74</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dcterms:type"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <IRI>http://purl.org/adms/publishertype/NonProfitOrganisation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:homepage"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <Literal>https://data.gov.bf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <IRI>https://data.gov.bf/publisher/n0</IRI>
+        <Literal>DKAN</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

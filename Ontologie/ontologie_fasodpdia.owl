@@ -1,0 +1,1408 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/gobainnocents/ontologies/2021/1/untitled-ontology-3"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Proportion_des_jeunes_selon_le_milieu_de_résidence_et_le_niveau_d’instruction_en_2006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Population_par_province_selon_le_milieu_de_résidence_en_2006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enquête_sur_l&apos;appui_technique_des_services_déconcentrés_des_collectivités_territoriales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burkina_Faso_-_Agriculture,_value_added"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Données_du_réseau_électrique_du_Burkina_Faso_(2017)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_des_centrales_fonctionnelles_selon_la_nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;Aménagement_du_territoire_et_de_la_Décentralisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pluviométrie_et_barrages_de_2006-2012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limites_administratives_du_Burkina_Faso_(2017)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budget_2009_format_tableau_croisé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investissement_fond_permanant_2009-2010_du_Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production_des_cultures_maraichères_de_1993_à_2012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Répartition_de_la_population_agricole_selon_Province"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_de_personnes_par_niveau,_par_région_et_par_an"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taux_de_chômage_des_jeunes_(15_à_34_ans_révolus)_au_sens_large_et_au_sens_du_BIT_en_2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_la_Culture_et_du_Tourisme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;Administration_Territoriale_et_de_la_Sécurité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production_de_céréales_au_Burkina_Faso_de_1980_à_2013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_de_l’effectif_des_demandeurs_d’emplois_enregistrés_selon_la_région_et_le_sexe_de_2012_à_2016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_total_d&apos;animaux_de_traction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l&apos;Innovation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Produit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ressources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Population_du_Burkina_par_tranche_d&apos;age_de_2008_à_2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_du_taux_brut_de_préscolarisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Réutilise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nos_Ecoles_Nos_DOnnées"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d&apos;œuvre_en_2015_Source:_INSD,_ENESI_2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banque_Mondiale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CartEau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_d&apos;abonnés_Basse_Tension_de_la_SONABEL_par_région"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d&apos;Indépendants_participants_aux_élections_législatives_2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Résultats_provisoires_de_l&apos;élection_présidentielle_du_29_décembre_2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;Education_Nationale_et_de_l&apos;Alphabétisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Couverture_en_mode_d&apos;approvisionnement_en_eau_selon_zone_d&apos;habitation_et_source_d&apos;approvisionnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_Election"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Effectifs_par_tranches_d&apos;ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l&apos;année_scolaire_2008-2009"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_pour_producteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producteurs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Répartition_par_tranches_d&apos;ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_d&apos;abonnés_en_électricité_par_région"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#A_pour_Ressources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_total_d&apos;abonnés_par_région"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale_au_BF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantité_de_production_des_captures_et_d&apos;aquaculture_de_1990_à_2011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_des_arrivées_au_Burkina_Faso_par_nationalité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indicateurs_du_tourisme_hôtelier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indicateurs_de_télécommunications_de_téléphonie_fixe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puissance_souscrite_par_région_(en_MW)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capacité_d&apos;accueil_par_région_en_nombre_de_chambre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Population_économiquement_active_dans_l&apos;agriculture_de_1980_à_2016_au_Burkina_Faso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Réutilisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jeux_de_données"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Production_de_céréales_au_Burkina_Faso_de_1980_à_2013"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Population_économiquement_active_dans_l&apos;agriculture_de_1980_à_2016_au_Burkina_Faso"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banque_Mondiale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Données_du_réseau_électrique_du_Burkina_Faso_(2017)"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Banque_Mondiale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Limites_administratives_du_Burkina_Faso_(2017)"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CartEau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Couverture_en_mode_d&apos;approvisionnement_en_eau_selon_zone_d&apos;habitation_et_source_d&apos;approvisionnement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CartEau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Quantité_de_production_des_captures_et_d&apos;aquaculture_de_1990_à_2011"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CartEau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Résultats_provisoires_de_l&apos;élection_présidentielle_du_29_décembre_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d&apos;Indépendants_participants_aux_élections_législatives_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonise"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Evolution_du_taux_brut_de_préscolarisation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Statistiques_sur_la_sécurité_sociale"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Statistiques_sur_la_sécurité_sociale_au_BF"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Indicateurs_de_télécommunications_de_téléphonie_fixe"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_total_d&apos;animaux_de_traction"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonise"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Burkina_Faso_-_Agriculture,_value_added"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Investissement_fond_permanant_2009-2010_du_Burkina_Faso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+            <Class IRI="#Open_Election"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_la_Culture_et_du_Tourisme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Evolution_des_arrivées_au_Burkina_Faso_par_nationalité"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_la_Culture_et_du_Tourisme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Capacité_d&apos;accueil_par_région_en_nombre_de_chambre"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nombre_des_centrales_fonctionnelles_selon_la_nature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Energie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Open_Election"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Open_Election"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d&apos;Indépendants_participants_aux_élections_législatives_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Population_par_province_selon_le_milieu_de_résidence_en_2006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Aménagement_du_territoire_et_de_la_Décentralisation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Répartition_de_la_population_agricole_selon_Province"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale_au_BF"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Burkina_Faso_-_Agriculture,_value_added"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Couverture_en_mode_d&apos;approvisionnement_en_eau_selon_zone_d&apos;habitation_et_source_d&apos;approvisionnement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Energie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d&apos;Indépendants_participants_aux_élections_législatives_2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d&apos;Indépendants_participants_aux_élections_législatives_2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+            <Class IRI="#Open_Election"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Administration_Territoriale_et_de_la_Sécurité"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_de_personnes_par_niveau,_par_région_et_par_an"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Production_des_cultures_maraichères_de_1993_à_2012"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Répartition_de_la_population_agricole_selon_Province"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_d&apos;abonnés_Basse_Tension_de_la_SONABEL_par_région"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_total_d&apos;abonnés_par_région"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Nombre_des_centrales_fonctionnelles_selon_la_nature"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Nombre_d&apos;abonnés_en_électricité_par_région"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_de_personnes_par_niveau,_par_région_et_par_an"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Education_Nationale_et_de_l&apos;Alphabétisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Effectifs_par_tranches_d&apos;ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l&apos;année_scolaire_2008-2009"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Education_Nationale_et_de_l&apos;Alphabétisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Education_Nationale_et_de_l&apos;Alphabétisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Répartition_par_tranches_d&apos;ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l&apos;Innovation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l&apos;Innovation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Pluviométrie_et_barrages_de_2006-2012"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Couverture_en_mode_d&apos;approvisionnement_en_eau_selon_zone_d&apos;habitation_et_source_d&apos;approvisionnement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Evolution_de_l’effectif_des_demandeurs_d’emplois_enregistrés_selon_la_région_et_le_sexe_de_2012_à_2016"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Proportion_des_jeunes_selon_le_milieu_de_résidence_et_le_niveau_d’instruction_en_2006"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Taux_de_chômage_des_jeunes_(15_à_34_ans_révolus)_au_sens_large_et_au_sens_du_BIT_en_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d&apos;œuvre_en_2015_Source:_INSD,_ENESI_2015"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Budget_2009_format_tableau_croisé"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Enquête_sur_l&apos;appui_technique_des_services_déconcentrés_des_collectivités_territoriales"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Investissement_fond_permanant_2009-2010_du_Burkina_Faso"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nombre_d&apos;abonnés_en_électricité_par_région"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;Energie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Population_du_Burkina_par_tranche_d&apos;age_de_2008_à_2017"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Quantité_de_production_des_captures_et_d&apos;aquaculture_de_1990_à_2011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Quantité_de_production_des_captures_et_d&apos;aquaculture_de_1990_à_2011"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+            <Class IRI="#CartEau"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d&apos;œuvre_en_2015_Source:_INSD,_ENESI_2015"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+            <Class IRI="#CartEau"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banque_Mondiale"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budget_2009_format_tableau_croisé"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CartEau"/>
+        <Class IRI="#Réutilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commission_Electorale_Nationale_Independante"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_des_arrivées_au_Burkina_Faso_par_nationalité"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonise"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_du_taux_brut_de_préscolarisation"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indicateurs_de_télécommunications_de_téléphonie_fixe"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indicateurs_du_tourisme_hôtelier"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Investissement_fond_permanant_2009-2010_du_Burkina_Faso"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liste_ordonnée_des_candidats_aux_élections_présidentielles_2015"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_la_Culture_et_du_Tourisme"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_des_centrales_fonctionnelles_selon_la_nature"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nos_Ecoles_Nos_DOnnées"/>
+        <Class IRI="#Réutilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Election"/>
+        <Class IRI="#Réutilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pluviométrie_et_barrages_de_2006-2012"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Population_par_province_selon_le_milieu_de_résidence_en_2006"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production_de_céréales_au_Burkina_Faso_de_1980_à_2013"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production_des_cultures_maraichères_de_1993_à_2012"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Répartition_de_la_population_agricole_selon_Province"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale_au_BF"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Évolution_de_la_population_jeune_par_région_et_selon_le_sexe_de_2012_à_2016"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burkina_Faso_-_Agriculture,_value_added"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capacité_d&apos;accueil_par_région_en_nombre_de_chambre"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Couverture_en_mode_d&apos;approvisionnement_en_eau_selon_zone_d&apos;habitation_et_source_d&apos;approvisionnement"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Données_du_réseau_électrique_du_Burkina_Faso_(2017)"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Données_désagrégées_sur_les_transferts_de_l’Etat_vers_les_collectivités_territoriales_par_région_2009-2010"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Effectifs_par_tranches_d&apos;ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l&apos;année_scolaire_2008-2009"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enquête_sur_l&apos;appui_technique_des_services_déconcentrés_des_collectivités_territoriales"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_de_l’effectif_des_demandeurs_d’emplois_enregistrés_selon_la_région_et_le_sexe_de_2012_à_2016"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_des_prix_moyens_mensuels_à_la_consommation_du_Riz_Importé_à_Ouagadougou_(Prix_au_Kg_en_FCFA)"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limites_administratives_du_Burkina_Faso_(2017)"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liste_des_Partis_ou_Formations_Politiques_et_Regroupement_d&apos;Indépendants_participants_aux_élections_législatives_2015"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;Administration_Territoriale_et_de_la_Sécurité"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;Aménagement_du_territoire_et_de_la_Décentralisation"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;Education_Nationale_et_de_l&apos;Alphabétisation"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l&apos;Innovation"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+        <Class IRI="#Producteurs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_d&apos;abonnés_Basse_Tension_de_la_SONABEL_par_région"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_d&apos;abonnés_en_électricité_par_région"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_de_personnes_par_niveau,_par_région_et_par_an"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_total_d&apos;abonnés_par_région"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_total_d&apos;animaux_de_traction"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Population_du_Burkina_par_tranche_d&apos;age_de_2008_à_2017"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Population_économiquement_active_dans_l&apos;agriculture_de_1980_à_2016_au_Burkina_Faso"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proportion_des_jeunes_selon_le_milieu_de_résidence_et_le_niveau_d’instruction_en_2006"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puissance_souscrite_par_région_(en_MW)"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantité_de_production_des_captures_et_d&apos;aquaculture_de_1990_à_2011"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Répartition_de_la_population_jeune_(15_à_34_ans_révolus)_selon_le_type_de_main_d&apos;œuvre_en_2015_Source:_INSD,_ENESI_2015"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+        <Class IRI="#Ressources"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Répartition_par_tranches_d&apos;ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Résultats_provisoires_de_l&apos;élection_présidentielle_du_29_décembre_2015"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taux_de_chômage_des_jeunes_(15_à_34_ans_révolus)_au_sens_large_et_au_sens_du_BIT_en_2015"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010"/>
+        <Class IRI="#Jeux_de_données"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+        <Class IRI="#Banque_Mondiale"/>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <Class IRI="#Ministère_de_la_Culture_et_du_Tourisme"/>
+        <Class IRI="#Ministère_de_l&apos;Administration_Territoriale_et_de_la_Sécurité"/>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <Class IRI="#Ministère_de_l&apos;Aménagement_du_territoire_et_de_la_Décentralisation"/>
+        <Class IRI="#Ministère_de_l&apos;Energie"/>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+        <Class IRI="#Ministère_de_l&apos;Education_Nationale_et_de_l&apos;Alphabétisation"/>
+        <Class IRI="#Ministère_de_l&apos;Enseignement_Supérieur_et_de_la_Recherche_Scientifique_et_de_l&apos;Innovation"/>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <Class IRI="#Ministère_de_la_Jeunesse,_de_la_Formation_Professionnnel_et_de_l&apos;Emploi"/>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Banque_Africaine_de_Développement"/>
+        <Class IRI="#Banque_Mondiale"/>
+        <Class IRI="#Institut_National_de_la_Statistique_et_de_la_Démographie"/>
+        <Class IRI="#Institut_des_Sciences_des_Sociétés"/>
+        <Class IRI="#Ministère_de_l&apos;Administration_Territoriale_et_de_la_Sécurité"/>
+        <Class IRI="#Ministère_de_l&apos;Agriculture_et_des_aménagements_Hydro-Agricoles"/>
+        <Class IRI="#Ministère_de_l&apos;Aménagement_du_territoire_et_de_la_Décentralisation"/>
+        <Class IRI="#Ministère_de_l&apos;action_Sociale_et_de_la_Solidarité_Nationale"/>
+        <Class IRI="#Ministère_de_l&apos;eau_et_de_l&apos;Assainissement"/>
+        <Class IRI="#Minsitère_de_l&apos;Economie,_des_Finances_et_du_Développement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Budget_2009_format_tableau_croisé"/>
+        <Class IRI="#Recettes_douanières_par_grandes_catégories_en_milliards_de_CFA"/>
+        <Class IRI="#Enquête_sur_l&apos;appui_technique_des_services_déconcentrés_des_collectivités_territoriales"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CartEau"/>
+        <Class IRI="#Nos_Ecoles_Nos_DOnnées"/>
+        <Class IRI="#Open_Election"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evolution_des_arrivées_au_Burkina_Faso_par_nationalité"/>
+        <Class IRI="#Indicateurs_du_tourisme_hôtelier"/>
+        <Class IRI="#Capacité_d&apos;accueil_par_région_en_nombre_de_chambre"/>
+        <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_aides_de_2012/2013_à_2016/2017"/>
+        <Class IRI="#Evolution_du_nombre_de_bénéficiaires_des_pret_de_2012/2013_à_2016/2017"/>
+        <Class IRI="#Nombre_d&apos;abonnés_Basse_Tension_de_la_SONABEL_par_région"/>
+        <Class IRI="#Nombre_total_d&apos;abonnés_par_région"/>
+        <Class IRI="#Puissance_souscrite_par_région_(en_MW)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evolution_des_exportations_selon_les_sections_du_Système_Harmonisé"/>
+        <Class IRI="#Indicateurs_de_télécommunications_de_téléphonie_fixe"/>
+        <Class IRI="#Liste_des_candidats_aux_élection_présidentielle_de_2015_au_Burkina_Faso"/>
+        <Class IRI="#Liste_des_candidats_sur_les_listes_provinciales_aux_élections_législatives_de_2015"/>
+        <Class IRI="#Nombre_total_d&apos;animaux_de_traction"/>
+        <Class IRI="#Résultats_provisoires_de_l&apos;élection_présidentielle_du_29_décembre_2015"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Evolution_du_taux_brut_de_préscolarisation"/>
+        <Class IRI="#Exportations_selon_la_classification_type_du_commerce_international_des_principaux_produits_en_2017"/>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale"/>
+        <Class IRI="#Données_du_réseau_électrique_du_Burkina_Faso_(2017)"/>
+        <Class IRI="#Limites_administratives_du_Burkina_Faso_(2017)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nombre_de_charrues_distribue_par_région_et_par_année_au_Burkina"/>
+        <Class IRI="#Production_des_cultures_maraichères_de_1993_à_2012"/>
+        <Class IRI="#Quantité_de_semences_des_cultures_de_rente_distribuée_par_région_et_par_année"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région"/>
+        <Class IRI="#Pluviométrie_et_barrages_de_2006-2012"/>
+        <Class IRI="#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nombre_de_latrines_familiales_construites_en_milieu_rural_par_région"/>
+        <Class IRI="#Taux_d’accès_à_l’assainissement_familial_par_région_et_par_milieu_en_2010"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nombre_des_centrales_fonctionnelles_selon_la_nature"/>
+        <Class IRI="#Population_par_province_selon_le_milieu_de_résidence_en_2006"/>
+        <Class IRI="#Statistiques_sur_la_sécurité_sociale_au_BF"/>
+        <Class IRI="#Importations_d’électricité_selon_le_pays_d’origine_(en_GWh)"/>
+        <Class IRI="#Nombre_d&apos;abonnés_en_électricité_par_région"/>
+        <Class IRI="#Population_du_Burkina_par_tranche_d&apos;age_de_2008_à_2017"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Production_de_céréales_au_Burkina_Faso_de_1980_à_2013"/>
+        <Class IRI="#Superficies_des_terres_cultivées_pour_la_production_du_céréale_au_Burkina_Faso_de_1961_à_2013"/>
+        <Class IRI="#Population_économiquement_active_dans_l&apos;agriculture_de_1980_à_2016_au_Burkina_Faso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Répartition_de_la_population_agricole_selon_Province"/>
+        <Class IRI="#Couverture_en_mode_d&apos;approvisionnement_en_eau_selon_zone_d&apos;habitation_et_source_d&apos;approvisionnement"/>
+        <Class IRI="#Evolution_de_la_production_(en_tonnes)_du_mil_de_2008_à_2017"/>
+        <Class IRI="#Evolution_de_la_quantité_de_Fumure_organique_(en_tonnes)_utilisée_par_région_et_par_province"/>
+        <Class IRI="#Quantité_de_production_des_captures_et_d&apos;aquaculture_de_1990_à_2011"/>
+        <Class IRI="#Répartition_des_prélèvements_d&apos;eau_de_2000_à_2014"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Effectifs_par_tranches_d&apos;ages_et_par_sexe_des_écoles_primaires_de_la_région_de_la_boucle_du_mouhoun_pour_l&apos;année_scolaire_2008-2009"/>
+        <Class IRI="#Liste_des_écoles_possédant_des_latrines_par_région,_par_province_et_par_département"/>
+        <Class IRI="#Répartition_par_tranches_d&apos;ages_et_par_sexe_des_effectifs_par_école_primaire_en_2005-2006"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Liste_des_nouveaux_inscrits_du_primaire_par_région,_par_province_et_par_département"/>
+        <Class IRI="#Nombre_de_personnes_par_niveau,_par_région_et_par_an"/>
+        <Class IRI="#Nombre_de_références_(évacuations_non_compris_)_réalisées_au_niveau_district"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#A_pour_Ressources"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#A_pour_producteur"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+        <ObjectProperty IRI="#Produit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#A_pour_Ressources"/>
+        <ObjectProperty IRI="#Produit"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+        <ObjectProperty IRI="#Réutilise"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Jeux_de_données"/>
+            <Class IRI="#Jeux_de_données"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_pour_Ressources"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_Ressources"/>
+            <Class IRI="#Ressources"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_pour_producteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_producteur"/>
+            <Class IRI="#Producteurs"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#A_pour_réutilisateurs"/>
+            <Class IRI="#Réutilisation"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Produit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produit"/>
+            <Class IRI="#Jeux_de_données"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Produit"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Produit"/>
+            <Class IRI="#Ressources"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Réutilise"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Jeux_de_données"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Réutilise"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Réutilise"/>
+            <Class IRI="#Ressources"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

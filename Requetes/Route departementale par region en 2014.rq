@@ -1,0 +1,4 @@
+prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> 
+select * where {
+  ?region ont:Annee_2014 ?nombre_km
+}

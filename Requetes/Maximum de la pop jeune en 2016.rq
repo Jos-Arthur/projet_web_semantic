@@ -1,0 +1,5 @@
+prefix ont: <http://www.co-ode.org/ontologies/ont.owl#> 
+select ?region ?nombre_femme  (MAX(?ens_pop) as ?Max_pop) where {
+  ?region ont:Femme_2016 ?nombre_femme
+  ?region ont:Ensemble_2016 ?ens_pop
+}
